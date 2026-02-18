@@ -7,11 +7,18 @@
         span
           i.fas.fa-info
       h1 Introducción
+
+    .row.align-items-center.mb-5
+      .d-none.d-lg-block.col-lg-3.col-xl-2
+        figure(data-aos="fade-left")
+          img(src="@/assets/curso/intro-icon.svg" alt="icono de acompañamiento")
+      .col-lg-7
+        p.mb-0 Le damos la bienvenida al componente formativo “Protocolos de servicio al cliente”, y para comenzar satisfactoriamente este recorrido se invita a explorar el recurso que se muestra a continuación: 
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/VdBU-D7dDXg" title="Protocolos de servicio al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption #[strong Video]: Protocolos de servicio al cliente
 
 </template>
 

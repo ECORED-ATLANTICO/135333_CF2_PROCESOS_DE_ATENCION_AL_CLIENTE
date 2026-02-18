@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    Name: 'Protocolos de servicio al cliente',
+    Description:
+      'Se debe planificar de forma integral lo que se va a ofrecer durante el proceso de venta y una herramienta eficaz para garantizarlo es la aplicación del protocolo con visión incluyente. Todos los funcionarios de atención al cliente deben estar en constante capacitación para garantizar que la experiencia que él viva certifique la calidad del producto o servicio recibido.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -30,29 +35,109 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        numero: '1',
-        titulo: 'Tema 1',
         desarrolloContenidos: true,
+        numero: '1',
+        titulo: 'Recursos tecnológicos para atender al cliente ',
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'Tipos',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Características',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Manejo',
+            hash: 't_1_3',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo:
+          'Normatividad de seguridad de la información para contactar al cliente',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Portafolio de servicios',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Elementos',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Características',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'La comunicación con el cliente',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Características, tipos y elementos',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Jerarquización',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Técnicas de comunicación oral, escrita y corporal',
+            hash: 't_4_3',
+          },
+          {
+            numero: '4.4',
+            titulo: 'Técnicas de comunicación efectiva y asertiva',
+            hash: 't_4_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo:
+          'Etiqueta y protocolo en la atención al cliente, reglas y normas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Relaciones interpersonales',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '6.1',
+            titulo: 'Tipos',
+            hash: 't_6_1',
+          },
+          {
+            numero: '6.2',
+            titulo: 'Factores',
+            hash: 't_6_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -62,12 +147,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -83,11 +168,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
-      },
+      // {
+      //   icono: 'fas fa-file-pdf',
+      //   titulo: 'Descargar PDF',
+      //   download: 'downloads/dist.pdf',
+      // },
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -102,22 +187,160 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: '',
+      tema: 'Norma ISO 27002',
+      referencia:
+        'ISO Tools Excellence. (2017). <i>Seguridad de la información</i>. https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/',
+      tipo: 'Blog',
+      link:
+        'https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/',
+    },
+    {
+      tema: 'Comunicación',
+      referencia:
+        'Blanco, G., C. (2013). <i>Comunicación y atención al cliente</i>. Macmillan Iberia, S.A.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42955',
+    },
+    {
+      tema: 'Protocolo',
+      referencia:
+        'Orozco, L., J. D. D. (2016). <i>Protocolo para la organización de actos oficiales y empresariales</i>. IC Editorial.',
+      tipo: 'Libro',
+      link:
+        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44621',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Canal de comunicación',
+      significado:
+        'medio físico a través del cual se puede comunicar, sirve para el intercambio de información entre el emisor y el receptor ya sea oral, escrito, lenguaje de señas, etc.',
+    },
+    {
+      termino: 'Comunicación',
+      significado:
+        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información',
+    },
+    {
+      termino: 'Etiqueta',
+      significado:
+        'norma de conducta que cumple expectativas en el comportamiento social, gana importancia en los eventos públicos y privados que requieran de ceremonia.',
+    },
+    {
+      termino: 'Jerarquización',
+      significado:
+        'estructura que establece orden, refiere ordenar algo según la jerarquía de niveles, grados, importancia, etc.',
+    },
+    {
+      termino: 'Normatividad',
+      significado:
+        'conjunto de leyes o reglamentos que contienen las conductas y procedimientos que deben cumplir las personas en instituciones, empresas, países, etc. ',
+    },
+    {
+      termino: 'Portafolio de productos y servicios',
+      significado:
+        'recopilación de productos y servicios ofrecidos por las empresas, es una herramienta fundamental para las ventas.',
+    },
+    {
+      termino: 'Protocolo',
+      significado:
+        'sistema de reglas que establecen la estandarización tanto de la comunicación como de procesos que se llevan a cabo en una empresa.',
+    },
+    {
+      termino: 'Recursos tecnológicos',
+      significado:
+        'medio que se vale de la tecnología para cumplir el propósito para el cual se hizo, puede ser una computadora, un teléfono móvil, una máquina, etc.',
+    },
+    {
+      termino: 'Relaciones interpersonales',
+      significado:
+        'interacción entre dos o más personas, se trata de relaciones sociales donde se dan sentimientos, emociones como por ejemplo el amor, los gustos, los intereses, etc.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Arismendy, A. (2013). <i>¿Cómo vender?, manual de ventas y atención al cliente.</i> A. Arismendy.',
       link: '',
+    },
+    {
+      referencia: 'Barbera, G. E. (2013). <i>El estilo e-portafolio.</i> UOC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cajal, F., A. (2020). <i>Portafolio de servicios: tipos, partes y ejemplos.</i> Lifeder.',
+      link: '',
+    },
+    {
+      referencia:
+        'Cámara de Comercio de Medellín. (s. f.). <i>Protocolo de atención a personas en situación de discapacidad.</i>',
+      link:
+        'https://www.camaramedellin.com.co/portals/0/transparencia/documentos/2019/protocolo_atencion_%20personas_en_situaci%c3%b3n_de_discapacidad_ccma.pdf',
+    },
+    {
+      referencia:
+        'Carrera, F., Jiménez, G., A., y Viera, L., L. (2019). <i>Técnicas de comunicación.</i> IC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Fernández, A. M. (2021). <i>Definición de relaciones interpersonales. Tipos, instancias y rasgos.</i> Definicion.com.',
+      link: 'Https://definicion.com/relaciones-interpersonales/',
+    },
+    {
+      referencia:
+        'Funiber.org. (2017). <i>Beneficios, tecnología y empresas.</i>',
+      link: 'https://blogs.funiber.org/direccion-empresarial',
+    },
+    {
+      referencia:
+        'IMF-formación.com. (2019). <i>Atención al cliente medios tecnológicos. Blog marketing.</i>',
+      link: 'https://blogs.imf-formacion.com/',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Ciberseguridad. (2020). <i>Cómo proteger la información de los clientes.</i>',
+      link:
+        'https://www.incibe.es/protege-tu-empresa/blog/proteger-informacion-personal-los-clientes-empresa',
+    },
+    {
+      referencia:
+        'Julia, M. U. (2020). <i>Características de la comunicación.</i>',
+      link: 'https://www.caracteristicas.co/comunicacion',
+    },
+    {
+      referencia:
+        'Mateos, M. Á. (2012). <i>Atención básica al cliente.</i> IC Editorial.',
+      link: '',
+    },
+    {
+      referencia:
+        'Models, Inc., & Communication. (2011). <i>Shannon and weaver model of communication.</i> Communication theory.',
+      link:
+        'https://www.communicationtheory.org/shannon-and-weaver-model-of-communication/',
+    },
+    {
+      referencia:
+        'Novella, R., Repetto, A., Robino, C., & Rucci, G. (2018). <i>Millennials en América Latina y el Caribe: ¿trabajar o estudiar? (resumen ejecutivo).</i> Interamerican Development Bank.',
+      link: 'https://doi.org/10.18235/0001411',
+    },
+    {
+      referencia:
+        'Oliveras, R., I. (2009). <i>El cliente y la calidad en el servicio.</i> Editorial Trillas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pérez, R., W. (2021). <i>El protocolo en la atención al cliente.</i>',
+      link:
+        'https://www.protocolo.org/social/etiqueta-social/el-protocolo-en-la-atencion-al-cliente.html',
+    },
+    {
+      referencia:
+        'Tiposde.com. (2017). <i>Tipos de relaciones interpersonales.</i>',
+      link: 'https://tiposde.com/relacionesinterpersonales',
     },
   ],
   creditos: [
