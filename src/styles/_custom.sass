@@ -103,14 +103,39 @@ figcaption
     left: 0
     transform: translate(-50%, -50%)
 
+.custom-mh
+  height: -webkit-fill-available
+
 .etiqueta-title
   position: relative
   overflow: hidden
   z-index: 2
-  // background-image: url(../assets/curso/tema2/bg-title.png)
+  background-image: url(../assets/curso/common/bg-title.png)
   background-position: right center
   background-size: cover
   padding-right: 100px
   padding: 12px 100px 14px 15px
   display: block
   width: fit-content
+
+.bg-primario-claro
+  background-color: $color-primario-claro
+
+.bg-primario-oscuro
+  background-color: $color-primario-oscuro
+
+.bg-secundario-medio
+  background-color: $color-secundario-medio
+
+.img-85
+  max-width: 85px
+  margin: 0 auto
+
+.custom-acordeon
+  background-color: #FAF9EA
+  &.acordion__activo
+    background-image: url("../assets/curso/common/bg-purple-horizontal.png") !important
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    background-color: #DBE3FB
