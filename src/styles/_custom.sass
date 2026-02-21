@@ -53,13 +53,49 @@ figcaption
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
 
+//Backgrounds
+.bg-primario-claro
+  background-color: $color-primario-claro
+.bg-primario-oscuro
+  background-color: $color-primario-oscuro
+.bg-secundario-medio
+  background-color: $color-secundario-medio
 
+.bg-slider-f
+  background-image: url(../assets/curso/common/bg-purple-square.png)
+  background-position: left center
+  background-size: cover
+  background-repeat: no-repeat
+
+.fullwidth-bg
+  display: none
+  @media screen and (min-width: 768px)
+    display: block
+  position: relative
+  z-index: 0
+
+  &--1::after
+    top: 10px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/common/bg-1.png')
+
+// Image width
+.img-85
+  max-width: 85px
+  margin: 0 auto
+.img-120
+  max-width: 120px
+  margin: 0 auto
+
+.text-primario
+  color: $color-primario
 
 // MIS CUSTOMS  
 .slider-wrapper
   position: relative
   .bg-fullwidth
-    // background-image: url(../assets/curso/tema3/bg-slider.png)
+    background-image: url(../assets/curso/common/bg-slider.png)
     background-position: center
     background-size: cover
     position: absolute
@@ -70,12 +106,10 @@ figcaption
     width: calc( 100% + 96px )
     height: calc( 100% + 80px )
     border-radius: 20px
-
   .slyder-a__btn--atrs, .slyder-a__btn--sigt
     background-color: #FF7E5D
     border-color: #FF7E5D
     // background-image: url(../assets/bullets/arrow-white.svg)
-
   .slyder-a__bullets__item
     background-color: #CBC232
     border-color: #CBC232
@@ -86,7 +120,6 @@ figcaption
 .z-2
   position: relative
   z-index: 2
-
 .accesibilidad
   z-index: 3
 
@@ -118,19 +151,6 @@ figcaption
   display: block
   width: fit-content
 
-.bg-primario-claro
-  background-color: $color-primario-claro
-
-.bg-primario-oscuro
-  background-color: $color-primario-oscuro
-
-.bg-secundario-medio
-  background-color: $color-secundario-medio
-
-.img-85
-  max-width: 85px
-  margin: 0 auto
-
 .custom-acordeon
   background-color: #FAF9EA
   &.acordion__activo
@@ -139,3 +159,27 @@ figcaption
     background-size: cover
     background-position: center
     background-color: #DBE3FB
+
+.tabs-a__tab
+  background-color: #DBE3FB
+  &__selected
+    color: #fff !important
+
+.custom-tabs
+  .tabs-a
+    @media (min-width: 1200px) 
+      .row
+        .col-xl-3 
+          flex: 0 0 auto
+          width: 40%
+        .col-xl-9
+          flex: 0 0 auto
+          width: 60%
+    @media (min-width: 992px) 
+      .row
+        .col-lg-4 
+          flex: 0 0 auto
+          width: 40%
+        .col-lg-8 
+          flex: 0 0 auto
+          width: 60%

@@ -12,7 +12,7 @@
       .d-none.d-lg-block.col-lg-3.col-xl-2
         figure(data-aos="fade-left")
           img(src="@/assets/curso/intro-icon.svg" alt="icono de acompañamiento")
-      .col-lg-7
+      .col-lg-9.col-xl-10
         p.mb-0 Le damos la bienvenida al componente formativo “Protocolos de servicio al cliente”, y para comenzar satisfactoriamente este recorrido se invita a explorar el recurso que se muestra a continuación: 
     
     figure.mb-5
