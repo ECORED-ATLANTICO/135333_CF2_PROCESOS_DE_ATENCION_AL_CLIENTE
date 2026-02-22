@@ -62,6 +62,8 @@ figcaption
   background-color: $color-secundario-medio
 .bg-secundario-claro
   background-color: $color-secundario-claro
+.bg-terciario-medio
+  background-color: $color-terciario-medio
 
 .bg-slider-f
   background-image: url(../assets/curso/common/bg-purple-square.png)
@@ -81,6 +83,12 @@ figcaption
     left: -50px
     position: absolute
     content: url('../assets/curso/common/bg-1.png')
+    
+  &--2::after
+    top: 200px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/common/bg-2.png')
 
 // Image width
 .img-85
@@ -92,11 +100,17 @@ figcaption
 .img-140
   max-width: 140px
   margin: 0 auto
+.img-180
+  max-width: 180px
+  margin: 0 auto
 .img-205
   max-width: 205px
   margin: 0 auto
 .img-225
   max-width: 225px
+  margin: 0 auto
+.img-250
+  max-width: 250px
   margin: 0 auto
 
 .text-primario
@@ -196,3 +210,12 @@ figcaption
         .col-lg-8 
           flex: 0 0 auto
           width: 60%
+
+.tabs-b__tab
+  background-color: $color-primario-claro
+
+.tabs-b__content-item
+  background-color: #FDFCF9
+
+.tabs-b__tab.tabs-b__tab--active
+  background-color: #FDFCF9
