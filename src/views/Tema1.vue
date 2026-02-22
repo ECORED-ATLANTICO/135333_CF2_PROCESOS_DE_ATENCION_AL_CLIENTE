@@ -44,6 +44,7 @@
       iframe(width="560" height="315" src="https://www.youtube.com/embed/8gZTBdLt_IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     Separador
+    
     .row.justify-content-center
       .col-xl-10
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -107,21 +108,21 @@
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Avance tecnológico
-              p.mb-0 La tecnología es parte de nuestras vidas; facilita la comunicación interpersonal sin importar donde esté. La llegada de últimas tecnologías para la conectividad, como 5G, o la inteligencia artificial hace que cada vez se pueda contar con avances tecnológicos. Las TIC están presentes en todos los ámbitos de la sociedad. El ser humano no se detiene en la búsqueda de avances tecnológicos.
+              p.mb-4.mb-lg-0 La tecnología es parte de nuestras vidas; facilita la comunicación interpersonal sin importar donde esté. La llegada de últimas tecnologías para la conectividad, como 5G, o la inteligencia artificial hace que cada vez se pueda contar con avances tecnológicos. Las TIC están presentes en todos los ámbitos de la sociedad. El ser humano no se detiene en la búsqueda de avances tecnológicos.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/10.png', alt='Imagen de acompañamiento')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Intercambio de productos y servicios
-              p.mb-0 Las diferentes redes sociales se encuentran a disposición de todo tipo de público, y estas se han convertido en aliadas importantes para la oferta y la demanda de toda clase de productos y servicios que son ofertados sin importar el tamaño de la empresa que los ofrece. Se ha dinamizado la economía del país, ya que son muchos los negocios que se hacen a través de ellas.
+              p.mb-4.mb-lg-0 Las diferentes redes sociales se encuentran a disposición de todo tipo de público, y estas se han convertido en aliadas importantes para la oferta y la demanda de toda clase de productos y servicios que son ofertados sin importar el tamaño de la empresa que los ofrece. Se ha dinamizado la economía del país, ya que son muchos los negocios que se hacen a través de ellas.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/11.png', alt='Imagen de acompañamiento')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Software para optimizar
-              p.mb-0 El software en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El software especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes etc. Cada vez más son indispensables para la gerencia de las empresas.
+              p.mb-4.mb-lg-0 El software en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El software especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes etc. Cada vez más son indispensables para la gerencia de las empresas.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/12.png', alt='Imagen de acompañamiento')
@@ -169,21 +170,21 @@
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img140(src='@/assets/curso/tema1/14.svg', alt='Texto que describa la imagen')
+                  img.img-140(src='@/assets/curso/tema1/14.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
                 p.mb-0 Cada cliente es único. Debe atenderlos de forma personalizada. Es importante conocer su perfil. Percibir muy bien lo que su cliente busca para que le ofrezca productos y servicios con excelente atención. Mantener actualizados sus datos, esto ayudará a entender las necesidades de los clientes.
           .tarjeta.bg-primario-claro.p-4(titulo="Establecer lazos con el cliente")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img140(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
+                  img.img-140(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
                 p.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el marketing relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes.
           .tarjeta.bg-primario-claro.p-4(titulo="Utilizar la tecnología a su favor")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img140(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen')
+                  img.img-140(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
                 p.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan cada la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
 

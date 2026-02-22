@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Normatividad de seguridad de la información para contactar al cliente
 
 </template>
 
