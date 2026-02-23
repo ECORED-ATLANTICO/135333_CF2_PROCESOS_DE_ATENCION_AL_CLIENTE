@@ -175,7 +175,56 @@
       .col-xl-10
         p.mb-0 En cuanto a los canales, en la actualidad existen muchos para comunicarse con los clientes, esto facilita la atención y servicio que se le debe prestar para que quede satisfecho con la empresa.
 
-    //- TODO LISTAS CON BG
+    .row.justify-content-center.mb-4.mb-lg-5.align-items-stretch
+      .col-lg-5.col-xl-4.mb-4.mb-lg-0
+        .p-4.bg-primario-claro.h-100
+          ol.lista-ol--cuadro
+            li.d-flex 
+              .lista-ol--cuadro__vineta.colr_3.text-bold
+                span 1
+              span Sitio <em>web</em>.
+            li.d-flex 
+              .lista-ol--cuadro__vineta.colr_3.text-bold
+                span 2
+              | Línea telefónica.
+            li.d-flex 
+              .lista-ol--cuadro__vineta.colr_3.text-bold
+                span 3
+              | SMS.
+            li.d-flex 
+              .lista-ol--cuadro__vineta.colr_3.text-bold
+                span 4
+              span <em>E-mail</em>  <em>marketing</em>  y boletines electrónicos.
+            li.d-flex 
+              .lista-ol--cuadro__vineta.colr_3.text-bold
+                span 5
+              | Redes sociales.
+      .col-lg-7.col-xl-6
+        .p-4.bg-primario-claro.h-100
+          .d-flex.align-items-center.justify-content-center
+            .col-md-7.col-lg-8
+              ol.lista-ol--cuadro
+                li.d-flex 
+                  .lista-ol--cuadro__vineta.colr_3.text-bold
+                    span 6
+                  span Notificaciones  <em>push</em>  (mensajes que se envían de un servidor remoto hasta los dispositivos).
+                li.d-flex 
+                  .lista-ol--cuadro__vineta.colr_3.text-bold
+                    span 7
+                  | Encuestas.
+                li.d-flex 
+                  .lista-ol--cuadro__vineta.colr_3.text-bold
+                    span 8
+                  | Anuncios.
+                li.d-flex 
+                  .lista-ol--cuadro__vineta.colr_3.text-bold
+                    span 9
+                  | Atención presencial.
+            .d-none.d-md-block.col-md-5.col-lg-4
+              figure
+                img.img-120(data-aos="fade-down-right", src="@/assets/curso/tema4/9.svg", alt="imagen de acompañamiento")
+            
+
 
     .row.justify-content-center.mb-6
       .col-xl-10
@@ -214,8 +263,313 @@
               figure
                 img(src='@/assets/curso/tema4/14.png', alt='Imagen de acompañamiento')
 
+    .row.justify-content-center
+      .col-xl-10
+        h4(data-aos='zoom-in-right').mb-4
+          span.etiqueta-title Barreras en la comunicación con el cliente
 
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-xl-10
+        p En la comunicación, siendo una actividad básica del ser humano, se presentan obstáculos, sin embargo, hay que destacar la complejidad de elementos que intervienen en ella (culturales, sociales, personales, etc.), que hacen que existan diversas clases de obstáculos que interfieren y la hacen compleja y difícil de desarrollarse.
+        p.mb-0 En todo proceso de comunicación se generan obstáculos que dificultan, e incluso, anulan el impacto del mensaje que se quiere transmitir.
 
+    TabsB.color-secundario.mb-5(data-aos="fade-left")
+      .p-3.p-lg-5(titulo="Barreras físicas")
+        .row.align-items-center.justify-content-around
+          .col-11.col-md-6.col-lg-4
+            figure
+              img.img-360.mb-4.mb-lg-0(src='@/assets/curso/tema4/15.svg', alt='Texto que describa la imagen')
+          .col-lg-8.col-xl-7
+            h4 Barreras físicas
+            p.mb-0 Ubicadas en el canal utilizado para emitir el mensaje, pudiendo distorsionar o anular el mensaje, se refiere a ruidos, interferencias o elementos físicos.
+      .p-3.p-lg-5(titulo="Barreras sociográficas")
+        .row.align-items-center.justify-content-around
+          .col-11.col-md-6.col-lg-4
+            figure
+              img.img-360.mb-4.mb-lg-0(src='@/assets/curso/tema4/16.svg', alt='Texto que describa la imagen')
+          .col-lg-8.col-xl-7
+            h4 Barreras sociográficas
+            p.mb-0 Tienen que ver con las clases sociales, la religión, las edades, las ideologías, etc., estas barreras son difíciles de derrumbar para llegar a una solución ya que tienen que ver con las creencias de cada individuo.
+      .p-3.p-lg-5(titulo="Barreras actitudinales")
+        .row.align-items-center.justify-content-around
+          .col-11.col-md-6.col-lg-4
+            figure
+              img.img-360.mb-4.mb-lg-0(src='@/assets/curso/tema4/17.svg', alt='Texto que describa la imagen')
+          .col-lg-8.col-xl-7
+            h4 Barreras actitudinales
+            p.mb-0 Son los deseos, intereses y necesidades de las personas, estas barreras son infinitas teniendo en cuenta que cada persona tiene sus propias percepciones, en ese sentido hay que tener en cuenta que la mente de una persona es diferente a la de los demás, por lo que los intereses también son diferentes y es muy difícil que todos salgan satisfechos.
+      .p-3.p-lg-5(titulo="Barreras psicológicas")
+        .row.align-items-center.justify-content-around
+          .col-11.col-md-6.col-lg-4
+            figure
+              img.img-360.mb-4.mb-lg-0(src='@/assets/curso/tema4/18.svg', alt='Texto que describa la imagen')
+          .col-lg-8.col-xl-7
+            h4 Barreras psicológicas
+            p.mb-0 Tienen que ver con la personalidad y creencias de las personas, en ese sentido hay que tener en cuenta los pensamientos opuestos, los prejuicios, los valores, etc.
+      .p-3.p-lg-5(titulo="Barreras semánticas")
+        .row.align-items-center.justify-content-around
+          .col-11.col-md-6.col-lg-4
+            figure
+              img.img-360.mb-4.mb-lg-0(src='@/assets/curso/tema4/19.svg', alt='Texto que describa la imagen')
+          .col-lg-8.col-xl-7
+            h4 Barreras semánticas
+            p.mb-0 Se refiere al lenguaje, idiomas o lenguas que dominen el emisor y el receptor.
+
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-lg-10.col-xl-8
+        p.mb-0 La comunicación cumple con una serie de funciones y depende de los objetivos propuestos:
+
+    .row.align-items-stretch.justify-content-center.justify-content-xl-start
+      .col-md-6.col-xl-4.offset-xl-2
+        .tarjeta-container.mb-4.custom-mh
+          .position-relative.bg-secundario-medio.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/20.svg' alt='AvatarTop')
+            div.ms-5
+              h5.mb-1 Informativa.
+              p.mb-0 Comunicar información objetiva.
+      .col-md-6.col-xl-4
+        .tarjeta-container.mb-4.custom-mh
+          .position-relative.bg-secundario-medio.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/21.svg' alt='AvatarTop')
+            div.ms-5
+              h5.mb-1 Expresiva.
+              p.mb-0 Mostrar sentimientos o emociones.
+      .col-md-6.col-xl-4.offset-xl-2
+        .tarjeta-container.mb-4.custom-mh
+          .position-relative.bg-secundario-medio.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/22.svg' alt='AvatarTop')
+            div.ms-5
+              h5.mb-1 Formativa.
+              p.mb-0 Incidir en el otro y enseñarle cosas.
+      .col-md-6.col-xl-4
+        .tarjeta-container.mb-4.custom-mh
+          .position-relative.bg-secundario-medio.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/23.svg' alt='AvatarTop')
+            div.ms-5
+              h5.mb-1 Persuasiva.
+              p.mb-0 Convencer a otros de que hagan algo.
+      .col-md-6.col-xl-4.offset-xl-4
+        .tarjeta-container.mb-4.custom-mh
+          .position-relative.bg-secundario-medio.p-3.rounded-4.tarjeta-label.custom-mh.ms-4.d-flex.align-items-center
+            img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema4/24.svg' alt='AvatarTop')
+            div.ms-5
+              h5.mb-1 Entretenimiento.
+              p.mb-0 Por el gusto de comunicarse.
+        
+    Separador
+    
+    .row.justify-content-center
+      .col-xl-10
+        #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 4.2 Jerarquización
+
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-xl-10
+        .row.align-items-center.justify-content-center
+          .col-10.col-md-6.col-lg-4
+            figure
+              img.mb-3.mb-lg-0(src='@/assets/curso/tema4/25.png', alt='Imagen de acompañamiento')
+          .col-12.col-lg-8
+            p Con el ánimo de conocer con quién hacer valer sus derechos, los clientes deben conocer la jerarquización que se da en la atención al cliente. Esto está relacionado directamente con los puestos o roles que desempeña el equipo de trabajo que tiene que ver con esta función.
+            p En la jerarquización de la comunicación con los clientes juegan un papel fundamental los representantes de servicio al cliente, los agentes de los call center, los supervisores de servicio al cliente, los gerentes de servicio al cliente, los representantes de soporte técnico, los ingenieros de soporte técnico, etc.
+            p.mb-0 Los representantes de servicio al cliente deben tener las siguientes cualidades:
+
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-md-4.col-lg-4.mb-4.mb-xl-0(data-aos="fade-up")
+        .tarjeta-numerada.color-primario.ps-5.px-4.py-3.h-100.d-flex.align-items-center
+          .tarjeta-numerada__numero
+            .h2 1
+          P.mb-0 Capacidad de escuchar atentamente las necesidades del cliente en poco tiempo.
+      .col-md-4.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
+        .tarjeta-numerada.color-primario.ps-5.px-4.py-3.h-100.d-flex.align-items-center
+          .tarjeta-numerada__numero
+            .h2 2
+          P.mb-0 Empatizar con el cliente, ponerse en sus zapatos.
+      .col-md-4.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
+        .tarjeta-numerada.color-primario.ps-5.px-4.py-3.h-100.d-flex.align-items-center
+          .tarjeta-numerada__numero
+            .h2 3
+          P.mb-0 Tener flexibilidad frente a los requerimientos del cliente.
+    
+    .row.justify-content-center.mb-6
+      .col-xl-10
+        p Los roles de servicio al cliente varían en su nombre, en algunas empresas les llaman agentes de servicio al cliente o representantes de servicio al cliente, agentes o representantes de atención al cliente. 
+        p.mb-0 A continuación, se presentan los roles que cumplen los representantes de servicio al cliente y las funciones que cada uno desarrolla, es a ellos que los clientes deben acudir para resolver sus situaciones.
+
+    div.slider-wrapper.z-2.mb-6
+      .bg-fullwidth
+      .tarjeta.tarjeta--blanca.position-relative.p-4.pt-5.z-2.my-5
+        SlyderA(tipo="b")
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Representante de servicio al cliente
+              p.mb-4.mb-lg-0 Estos funcionarios son los encargados de responder las preguntas del cliente referente a los productos o servicios, procedimientos y políticas de la empresa, también se encargan de resolver problemas, tomar pedidos, manejo de devoluciones de mercancía, responden quejas y facilitan información sobre las ofertas de la empresa, deben resolver diariamente correos electrónicos y llamadas telefónicas.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema4/26.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Agente de centro de llamadas
+              p.mb-4.mb-lg-0 Los funcionarios del centro de llamadas (call center) laboran internamente o en forma remota a través de  un centro de llamadas virtual, entre sus funciones está responder llamadas, solucionar quejas, despertar interés en el cliente y resolver transacciones, estos funcionarios reciben un gran número de llamadas al día.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema4/27.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Supervisor de servicio al cliente
+              p.mb-4.mb-lg-0 Estos funcionarios supervisan al equipo de agentes o representantes de servicio al cliente, participan en el proceso de contratación de los mismos, ayudando a entrevistar y preseleccionar a los candidatos al cargo de servicio al cliente, también participan en el entrenamiento y capacitación del nuevo equipo.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema4/28.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Gerente de servicio al cliente
+              p.mb-4.mb-lg-0 Son los responsables de supervisar a los equipos de atención al cliente, así como  de la contratación y la capacitación de los nuevos representantes de servicio al cliente, realizan seguimiento del rendimiento y progreso de los mismos, es el encargado de gestionar los conflictos que involucren a clientes y representantes del servicio al cliente.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema4/29.png', alt='Imagen de acompañamiento')
+          .row.z-2.justify-content-center.align-items-center
+            .col-lg-5
+              h4.mb-4 Defensor del cliente
+              p.mb-4.mb-lg-0 Estos funcionarios se encargan de representar los intereses del cliente en las empresas, son responsables de impulsar cambios internos en la organización con el fin de satisfacer las expectativas del cliente.
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema4/30.png', alt='Imagen de acompañamiento')
+
+    Separador
+    
+    .row.justify-content-center
+      .col-xl-10
+        #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 4.3 Técnicas de comunicación oral, escrita y corporal
+
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-xl-10
+        p Se debe tener en cuenta que la comunicación es una habilidad muy importante para relacionarse con los demás, ella permite compartir sentimientos, emociones y pensamientos en los entornos familiar, laboral y social, como la comunicación se logra a través de trasmisión de mensajes verbales y no verbales, hay que tener en cuenta que a veces los mensajes pueden malinterpretarse entre las personas y esto sucede porque no se da una comunicación efectiva y no se tienen en cuenta las técnicas de comunicación.
+        p.mb-0 A continuación, se muestran las técnicas de comunicación con sus objetivos y estrategias:
+
+    .row.justify-content-center
+      .col-12.col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Tabla 2.
+          span Técnicas objetivos y estrategias de comunicación.
+        .tabla-a.color-primario
+          table
+            caption <b>Nota.</b> Tomada de Cámara de Comercio de Medellín (s. f.).
+            thead
+              tr
+                th Técnica
+                th Objetivo
+                th Estrategia
+            tbody
+              tr
+                td Comunicación efectiva oral.
+                td 
+                  ul.lista-ul
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Cuidar las palabras.
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Cuidar el tono y volumen de voz.
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Ofrecer una comunicación constructiva.
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Manejar un nivel emocional adecuado.
+                td 
+                  ul.lista-ul
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | Las ideas emitidas deben ser claras por medio de palabras entendibles y coherentes para evitar posibles interpretaciones.
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | Se debe mantener un nivel de voz acorde a la situación en la que se encuentre el emisor
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | Debe generarse el intercambio de ideas objetivas, ya que esto incrementa las posibilidades de obtener un diálogo positivo.
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | Se deben controlar adecuadamente las emociones, sentimientos y pensamientos que se generen durante la conversación para no perder el objetivo principal del diálogo.
+              tr
+                td Comunicación efectiva no verbal.
+                td 
+                  ul.lista-ul
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Utilizar lenguaje corporal.
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Mantener contacto visual.
+                    li.d-flex 
+                      i.far.fa-dot-circle.text-secundario-variante
+                      | Cuidar los gestos de la cara.
+                td 
+                  ul.lista-ul
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | Este lenguaje se debe cuidar, ya que es el que tiene que ver con los movimientos del cuerpo y la postura, con ellos expresamos que aprobamos o desaprobamos la situación en la que nos encontramos.
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | Con la mirada se expresan sentimientos de alegría, enojo o tristeza, se recomienda en esta técnica que se debe mantener un contacto visual con el cliente para darle confianza y seguridad a la hora de atenderlo. 
+                    li.d-flex 
+                      i.fas.fa-check-circle.text-primario
+                      | La cara es la parte de nuestro cuerpo que presenta mayor gestualización, a la hora de atender al cliente se debe ser muy cuidadoso evitando hacer gestos negativos que puedan alterarlo.
+
+    Separador
+
+    .row.justify-content-center
+      .col-xl-10
+        #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 4.4 Técnicas de comunicación efectiva y asertiva
+
+    .row.justify-content-center.mb-4.mb-lg-5
+      .col-xl-10
+        p.mb-0 Para tener una comunicación asertiva y efectiva, se pueden utilizar las siguientes sugerencias:
+
+    .row.mb-5.bg-primario-claro.p-4.justify-content-center.align-items-center
+      .col-12.col-lg-7
+        ol.lista-ol--cuadro
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 1
+            | Manejar las emociones y opiniones, así se aprenderá a comunicarlas.
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 2
+            | Siempre atender al cliente mirando a sus ojos cuando le esté hablando.
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 3
+            | Hacer preguntas que le demuestren al cliente que ha captado su interés.
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 4
+            | Permitir que el cliente hable, no interrumpirlo y aprender a identificar el momento de intervenir. 
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 5
+            | No cambiar el tema abruptamente, ser paciente. 
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 6
+            | Ser empático con la persona que esté hablando, maneje su lenguaje no verbal. 
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 7
+            | Permitir que el cliente hable, no hacer de la conversación un monólogo, así habrá una buena retroalimentación y los dos aportarán sus opiniones. 
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 8
+            | Ser muy cuidadoso con las respuestas sean verbales o no verbales. 
+          li.d-flex 
+            .lista-ol--cuadro__vineta.text-bold.text-black
+              span 9
+            | No juzgar a las personas, centrarse en el contenido de la conversación.
+      .col-12.col-lg-5.align-items-center
+        figure
+          img(src='@/assets/curso/tema4/31.svg', alt='Texto que describa la imagen')
     //- READY
 
     .row.justify-content-center.mb-4.mb-lg-5
@@ -226,7 +580,7 @@
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-4
           span.etiqueta-title Comunicación asertiva
-    .video
+    .video.mb-4.mb-lg-5
       iframe(width="560" height="315" src="https://www.youtube.com/embed/VXQJ7DGmkio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
 
     .row.justify-content-center
@@ -234,9 +588,10 @@
         h4(data-aos='zoom-in-right').mb-4
           span.etiqueta-title Criterios de comunicación asertiva
 
-    .video
+    .video.mb-4.mb-lg-5
       iframe(width="560" height="315" src="https://www.youtube.com/embed/nfJPSfcl_tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
    
+
 </template>
 
 <script>
