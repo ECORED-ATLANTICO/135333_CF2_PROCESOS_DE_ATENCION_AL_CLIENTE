@@ -11,7 +11,7 @@
       .col-12.col-lg-7
         p Hablar de comunicación con el cliente es referirse al contacto que se tiene con él y la información que se comparte, gracias a los diferentes mecanismos y a los avances tecnológicos se abren diversos canales de comunicación con el cliente, que los podemos usar con diferentes propósitos aprovechando sus características.
         p.mb-4.mb-lg-0 La importancia de la comunicación con el cliente consiste en que se mantenga viva la relación entre la empresa y los consumidores, ya que si no existe dicha comunicación el cliente se puede sentir desprotegido cuando necesite información sobre el producto o servicio que se le haya ofrecido por cualquiera de los canales que tenga para comunicarse; lo mismo puede suceder con clientes potenciales o clientes en condición de discapacidad, los cuales necesitan sentirse escuchados por la empresa.
-      .col-12.col-lg-3.mb-3
+      .col-12.col-lg-3.d-none.d-lg-block
         figure
           img(src='@/assets/curso/tema4/1.png', alt='Imagen de acompoñamiento', data-aos="fade-right")
 

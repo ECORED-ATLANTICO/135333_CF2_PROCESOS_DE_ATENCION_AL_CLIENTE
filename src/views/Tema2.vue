@@ -8,10 +8,10 @@
       h1 Normatividad de seguridad de la información para contactar al cliente 
     
     .fullwidth-bg.fullwidth-bg--2
-    .row.mb-5.z-2         
-      .col-12.col-lg-4.mb-3(data-aos="fade-right")
+    .row.mb-5.z-2.justify-content-center         
+      .col-12.col-md-8.col-lg-4(data-aos="fade-right")
         figure
-          img(src='@/assets/curso/tema2/1.png' alt='AvatarTop')
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema2/1.png' alt='AvatarTop')
       .col-12.col-lg-8(data-aos="fade-left")
         p Ahora se verá más acerca de la normatividad en seguridad de la información. Según la Norma ISO 27002, las empresas deben tomar medidas de seguridad para proteger los datos de los clientes, pues ellos son tan importantes como los productos y servicios que se estén ofertando; la protección de la información es el pilar fundamental de las empresas para brindar la confianza necesaria a sus clientes, a la marca y para captar nuevas oportunidades de negocios.
         .p-4.bg-primario-claro
