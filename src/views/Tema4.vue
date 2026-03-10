@@ -142,11 +142,8 @@
                       | No demuestre impaciencia, ofrézcale el tiempo necesario para que se sienta bien atendido.
 
     Separador
-    
-    .row.justify-content-center
-      .col-xl-10
-        #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.1 Características, tipos y elementos
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.1 Características, tipos y elementos
 
     p La comunicación en general debe entenderse como un intercambio. El propósito no es que la conversación suceda desde un solo lado, la intención es provocar reacciones para que exista un flujo de ideas, la comunicación con los clientes sirve como canal para conocerlos mejor y que ellos a su vez conozcan su empresa. También, la comunicación comercial cumple con la función de promocionar una oferta.
     p.mb-4.mb-lg-5 Con el cliente, sin importar el canal debe recibir una comunicación con las siguientes características.
