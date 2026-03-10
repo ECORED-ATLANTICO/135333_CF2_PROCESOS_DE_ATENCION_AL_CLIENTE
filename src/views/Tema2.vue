@@ -36,7 +36,7 @@
           span Prácticas para la protección de datos
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/2-mob.svg", alt="alt")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/2.svg", alt="alt")
-        figcaption <strong>Nota.</strong> SENA, 2026
+        figcaption #[strong Nota.] SENA, 2026.
 
     p.mb-4.mb-lg-5 A continuación, se desarrolla cada una de las prácticas que garantizan la protección de los datos de los clientes:
 
@@ -88,7 +88,7 @@
     
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p Según cifras del DANE, en el 2021 aumentaron en un 30% los ciberataques en Colombia.
+        p Según cifras del DANE, en el 2021 aumentaron en un 30 % los ciberataques en Colombia.
 
     .row.justify-content-center.align-items-center.z-2.mb-5
       .col-xl-10
@@ -97,7 +97,7 @@
           span Ciberataques en Colombia
         img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/8-mob.svg", alt="pendiente text alt")
         img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/8.svg", alt="pendiente text alt")
-        figcaption #[strong Nota.] SENA, 2026
+        figcaption #[strong Nota.] SENA, 2026.
 
     .row.justify-content-center
       .col-xl-10

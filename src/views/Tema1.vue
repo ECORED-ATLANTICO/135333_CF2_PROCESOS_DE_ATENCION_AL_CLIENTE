@@ -90,7 +90,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 A continuación, se verán los tipos de canales utilizados por los clientes.
+        p.mb-0 A continuación, se explicarán los tipos de canales utilizados por los clientes.
 
     figure
       .video.mb-2

@@ -100,7 +100,7 @@
                 figure
                   img.mb-4.mb-lg-0.img-140(src='@/assets/curso/tema6/8.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
-                p.mb-0 En ese tipo de relación la empresa no mantiene relación directa con el cliente, pero la empresa sí ofrece las herramientas necesarias para que el cliente busque ayuda en el momento que lo requiera, estos centros de ayuda son los #[em chatbots] y foros, también Amazon y MercadoLibre que ofrecen una buena atención al cliente y le resuelven sus problemas sin necesitar un representante de servicio al cliente.
+                p.mb-0 En ese tipo de relación la empresa no mantiene relación directa con el cliente, pero la empresa sí ofrece las herramientas necesarias para que el cliente busque ayuda en el momento que lo requiera, estos centros de ayuda son los #[em chatbots] y foros, también Amazon y Mercado Libre que ofrecen una buena atención al cliente y le resuelven sus problemas sin necesitar un representante de servicio al cliente.
           .tarjeta.bg-primario-claro.h-100.d-flex.align-items-center.p-4(titulo="Relaciones a través de servicios automatizados")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0

@@ -59,13 +59,13 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p De acuerdo al Manual de protocolo para la atención a personas en situación de discapacidad de la Cámara de Comercio de Medellín y a la Convención Internacional sobre los Derechos de las Personas con Discapacidad, así como al Servicio Nacional de la Discapacidad, existen pautas de comunicación para la atención al cliente en condición de discapacidad. Si consigue aplicarlas estará ampliando su mercado, lo que será rentable para su empresa y justo para esta población, ya que son personas que merecen las mismas oportunidades.
+        p De acuerdo al manual de protocolo para la atención a personas en situación de discapacidad de la Cámara de Comercio de Medellín y a la Convención Internacional sobre los Derechos de las Personas con Discapacidad, así como al Servicio Nacional de la Discapacidad, existen pautas de comunicación para la atención al cliente en condición de discapacidad. Si consigue aplicarlas estará ampliando su mercado, lo que será rentable para su empresa y justo para esta población, ya que son personas que merecen las mismas oportunidades.
         p.mb-0 Se deben tener en cuenta las siguientes recomendaciones:
 
     .row.justify-content-center
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 1.
+          h5 Tabla 2.
           span Recomendaciones.
         .tabla-a.color-primario
           table
@@ -181,23 +181,23 @@
           ol.lista-ol--cuadro
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
-                span 1
+                span a
               span Sitio web.
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
-                span 2
+                span b
               | Línea telefónica.
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
-                span 3
+                span c
               | SMS.
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
-                span 4
+                span d
               span <em>E-mail</em>  <em>marketing</em>  y boletines electrónicos.
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
-                span 5
+                span e
               | Redes sociales.
       .col-lg-7.col-xl-6
         .p-4.bg-primario-claro.h-100
@@ -206,19 +206,19 @@
               ol.lista-ol--cuadro
                 li.d-flex 
                   .lista-ol--cuadro__vineta.colr_3.text-bold
-                    span 6
+                    span f
                   span Notificaciones  <em>push</em>  (mensajes que se envían de un servidor remoto hasta los dispositivos).
                 li.d-flex 
                   .lista-ol--cuadro__vineta.colr_3.text-bold
-                    span 7
+                    span g
                   | Encuestas.
                 li.d-flex 
                   .lista-ol--cuadro__vineta.colr_3.text-bold
-                    span 8
+                    span h
                   | Anuncios.
                 li.d-flex 
                   .lista-ol--cuadro__vineta.colr_3.text-bold
-                    span 9
+                    span i
                   | Atención presencial.
             .d-none.d-md-block.col-md-5.col-lg-4
               figure
@@ -451,7 +451,7 @@
     .row.justify-content-center
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
-          h5 Tabla 2.
+          h5 Tabla 3.
           span Técnicas objetivos y estrategias de comunicación.
         .tabla-a.color-primario
           table
@@ -485,7 +485,7 @@
                       | Las ideas emitidas deben ser claras por medio de palabras entendibles y coherentes para evitar posibles interpretaciones.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Se debe mantener un nivel de voz acorde a la situación en la que se encuentre el emisor
+                      | Se debe mantener un nivel de voz acorde a la situación en la que se encuentre el emisor.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Debe generarse el intercambio de ideas objetivas, ya que esto incrementa las posibilidades de obtener un diálogo positivo.
@@ -533,39 +533,39 @@
         ol.lista-ol--cuadro
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 1
+              span a
             | Manejar las emociones y opiniones, así se aprenderá a comunicarlas.
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 2
+              span b
             | Siempre atender al cliente mirando a sus ojos cuando le esté hablando.
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 3
+              span c
             | Hacer preguntas que le demuestren al cliente que ha captado su interés.
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 4
+              span d
             | Permitir que el cliente hable, no interrumpirlo y aprender a identificar el momento de intervenir. 
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 5
+              span e
             | No cambiar el tema abruptamente, ser paciente. 
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 6
+              span f
             | Ser empático con la persona que esté hablando, maneje su lenguaje no verbal. 
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 7
+              span g
             | Permitir que el cliente hable, no hacer de la conversación un monólogo, así habrá una buena retroalimentación y los dos aportarán sus opiniones. 
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 8
+              span h
             | Ser muy cuidadoso con las respuestas sean verbales o no verbales. 
           li.d-flex 
             .lista-ol--cuadro__vineta.text-bold.text-black
-              span 9
+              span i
             | No juzgar a las personas, centrarse en el contenido de la conversación.
       .col-12.col-lg-5.align-items-center
         figure

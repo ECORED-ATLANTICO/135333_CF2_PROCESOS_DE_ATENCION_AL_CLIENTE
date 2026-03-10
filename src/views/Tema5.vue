@@ -9,7 +9,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 Los clientes que adquieren los productos y serviciosios se convierten en el alma de las empresas, su comportamiento y consumo representan el éxito o fracaso de la compañía, ya que los clientes son los que deciden si su negocio es bueno o no. Esto hace que sea muy importante que se cree un protocolo y etiqueta para la atención del cliente, pues es más fácil mantener un cliente fidelizado que conseguir nuevos clientes. Es ahí donde cobra importancia el protocolo. #[strong Ningún cliente vuelve a un negocio donde no fue atendido a su gusto].
+        p.mb-0 Los clientes que adquieren los productos y servicios se convierten en el alma de las empresas, su comportamiento y consumo representan el éxito o fracaso de la compañía, ya que los clientes son los que deciden si su negocio es bueno o no. Esto hace que sea muy importante que se cree un protocolo y etiqueta para la atención del cliente, pues es más fácil mantener un cliente fidelizado que conseguir nuevos clientes. Es ahí donde cobra importancia el protocolo. #[strong Ningún cliente vuelve a un negocio donde no fue atendido a su gusto].
         
     .row.justify-content-center
       .col-xl-10
@@ -23,7 +23,7 @@
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         .cajon.color-terciario.p-4(data-aos="fade-up")
-          p.mb-0 Un protocolo de atención es la forma de plasmar, para toda la organización, el modo de actuar deseado frente al cliente, buscando unificar los criterios, conceptos, creencias e ideas diversas que se puedan tener respecto a qué es una buena atención.
+          p.mb-0 un protocolo de atención es la forma de plasmar, para toda la organización, el modo de actuar deseado frente al cliente, buscando unificar los criterios, conceptos, creencias e ideas diversas que se puedan tener respecto a qué es una buena atención.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-10.col-sm-6.col-lg-3
@@ -99,7 +99,7 @@
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         p En los ambientes donde se tenga que relacionarse con personas que no se conozcan existe la necesidad de hacerlo de una manera adecuada, especialmente si se trabaja en atención y servicio al cliente. Muchas empresas consideran que es un gasto capacitar al personal en etiqueta para atender al cliente, pero deben considerar que por el contrario se convierte en una inversión.
-        p La etiqueta reglamenta la conducta de las personas, son aquellas cosas que los demás no pueden hacer por otras. En la Etiqueta para la atención al cliente en las empresas hay que tener en cuenta estas 5 reglas:
+        p La etiqueta reglamenta la conducta de las personas, son aquellas cosas que los demás no pueden hacer por otras. En la etiqueta para la atención al cliente en las empresas hay que tener en cuenta estas 5 reglas:
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-4.col-lg-4.col-xl-3.d-none.d-lg-block

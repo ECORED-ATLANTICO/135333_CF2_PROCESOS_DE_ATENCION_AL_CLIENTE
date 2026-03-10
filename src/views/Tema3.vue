@@ -27,6 +27,9 @@
         p.mb-0 Lo siguiente es lo que necesita un portafolio para cumplir con su objetivo:
 
     .row.justify-content-center(data-aos="fade-left")
+      .titulo-sexto.color-acento-contenido.mb-4
+        h5 Tabla 1.
+        span Elementos necesarios para que un portafolio cumpla con su objetivo.
       .col-12.col-xl-10
         .tabla-a.color-primario
           table
@@ -134,13 +137,13 @@
                       | Ofertas especiales.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Formas de pago: efectivo, tarjetas débito o crédito
+                      | Formas de pago: efectivo, tarjetas débito o crédito.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Recaudo electrónico: diferentes canales como Efecty, Nequi, Daviplata, etc.
               tr
                 td #[strong Información de contacto.]
-                td Se Debe especificar todas las formas por las cuales se puedan comunicar los clientes
+                td Se debe especificar todas las formas por las cuales se puedan comunicar los clientes.
                 td 
                   ul.lista-ul
                     li.d-flex 
@@ -191,7 +194,7 @@
           .col-8
             img.img-120(src='@/assets/curso/tema3/11.svg' alt='AvatarTop')
         h5.text-center Reseña histórica de la empresa
-        p.text-center Cuándo fue fundada, nombre de los propietarios y logros a través de la historia.
+        p.text-center Cuando fue fundada, nombre de los propietarios y logros a través de la historia.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8

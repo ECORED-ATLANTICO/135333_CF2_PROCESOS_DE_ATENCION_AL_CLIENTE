@@ -184,7 +184,7 @@ export default {
     {
       termino: 'Comunicación',
       significado:
-        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información',
+        'acción consciente de intercambio entre dos o más personas para recibir o trasmitir información.',
     },
     {
       termino: 'Etiqueta',
@@ -241,7 +241,7 @@ export default {
       referencia:
         'Cámara de Comercio de Medellín. (s. f.). <i>Protocolo de atención a personas en situación de discapacidad.</i>',
       link:
-        'https://www.camaramedellin.com.co/portals/0/transparencia/documentos/2019/protocolo_atencion_%20personas_en_situaci%c3%b3n_de_discapacidad_ccma.pdf',
+        'https://www.camaramedellin.com.co/Portals/0/Documentos/Transparencia/accesibilidad/Protocolo_atencion_personas_discapacidad_movilidad_reducida_y_orden_preferencial.pdf',
     },
     {
       referencia:
@@ -261,7 +261,8 @@ export default {
     {
       referencia:
         'IMF-formación.com. (2019). <i>Atención al cliente medios tecnológicos. Blog marketing.</i>',
-      link: 'https://blogs.imf-formacion.com/',
+      link:
+        'https://blogs.imf-formacion.com/blog/marketing/atencion-al-cliente-medios-tecnologicos/',
     },
     {
       referencia:
@@ -304,7 +305,7 @@ export default {
     {
       referencia:
         'Tiposde.com. (2017). <i>Tipos de relaciones interpersonales.</i>',
-      link: 'https://tiposde.com/relacionesinterpersonales',
+      link: '',
     },
   ],
   creditos: [
