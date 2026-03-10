@@ -100,14 +100,14 @@
                 figure
                   img.mb-4.mb-lg-0.img-140(src='@/assets/curso/tema6/8.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
-                p.mb-0 En ese tipo de relación la empresa no mantiene relación directa con el cliente, pero la empresa sí ofrece las herramientas necesarias para que el cliente busque ayuda en el momento que lo requiera, estos centros de ayuda son los chatbots y foros, también Amazon y MercadoLibre que ofrecen una buena atención al cliente y le resuelven sus problemas sin necesitar un representante de servicio al cliente.
+                p.mb-0 En ese tipo de relación la empresa no mantiene relación directa con el cliente, pero la empresa sí ofrece las herramientas necesarias para que el cliente busque ayuda en el momento que lo requiera, estos centros de ayuda son los #[em chatbots] y foros, también Amazon y MercadoLibre que ofrecen una buena atención al cliente y le resuelven sus problemas sin necesitar un representante de servicio al cliente.
           .tarjeta.bg-primario-claro.h-100.d-flex.align-items-center.p-4(titulo="Relaciones a través de servicios automatizados")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure
                   img.mb-4.mb-lg-0.img-140(src='@/assets/curso/tema6/9.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
-                p.mb-0 Esta relación se refiere a la inteligencia artificial (expresada por máquinas, procesadores y software), lastimosamente no es una tecnología muy usada en Colombia para establecer buenas relaciones con los clientes.
+                p.mb-0 Esta relación se refiere a la inteligencia artificial (expresada por máquinas, procesadores y #[em software]), lastimosamente no es una tecnología muy usada en Colombia para establecer buenas relaciones con los clientes.
           .tarjeta.bg-primario-claro.h-100.d-flex.align-items-center.p-4(titulo="Relaciones de comunidades")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
@@ -125,7 +125,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p Según los portales <em>web</em> especializados Impulsa y Vida Profesional, la mejor forma para llegar al cliente es a través de la atención. Al momento de ofrecer productos hay que hablar de las ofertas y los descuentos, se debe estar atento a brindar una buena atención, estas acciones pueden llegar a reducir costos y benefician tanto a la empresa como al cliente.
+        p Según los portales web especializados Impulsa y Vida Profesional, la mejor forma para llegar al cliente es a través de la atención. Al momento de ofrecer productos hay que hablar de las ofertas y los descuentos, se debe estar atento a brindar una buena atención, estas acciones pueden llegar a reducir costos y benefician tanto a la empresa como al cliente.
         p.mb-5 Los factores que intervienen en la atención al cliente son:
 
     .row.justify-content-center
@@ -183,7 +183,7 @@
             .col-md-8.mb-4.mb-md-0.align-items-center
               div  
                 h3.text-start Busca las respuestas
-                p.text-start No solamente debemos escuchar, algunas veces tendremos que ir a buscar las respuestas que necesitamos del cliente para mejorar el servicio, en ocasiones el cliente desconoce lo que quiere, esa es la oportunidad que tiene para ofrecerle soluciones y brindarle sus productos y servicios
+                p.text-start No solamente debemos escuchar, algunas veces tendremos que ir a buscar las respuestas que necesitamos del cliente para mejorar el servicio, en ocasiones el cliente desconoce lo que quiere, esa es la oportunidad que tiene para ofrecerle soluciones y brindarle sus productos y servicios.
             .col-md-4
               figure
                 img(src='@/assets/curso/tema6/17.svg', alt='Texto que describa la imagen')

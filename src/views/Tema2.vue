@@ -11,17 +11,19 @@
     .row.mb-5.z-2.justify-content-center         
       .col-12.col-md-8.col-lg-4(data-aos="fade-right")
         figure
-          img.mb-4.mb-lg-0(src='@/assets/curso/tema2/1.png' alt='AvatarTop')
+          img.mb-4.mb-lg-0(src='@/assets/curso/tema2/1.png' alt='')
       .col-12.col-lg-8(data-aos="fade-left")
-        p Ahora se verá más acerca de la normatividad en seguridad de la información. Según la Norma ISO 27002, las empresas deben tomar medidas de seguridad para proteger los datos de los clientes, pues ellos son tan importantes como los productos y servicios que se estén ofertando; la protección de la información es el pilar fundamental de las empresas para brindar la confianza necesaria a sus clientes, a la marca y para captar nuevas oportunidades de negocios.
+        p Ahora se verá más acerca de la normatividad en seguridad de la información. Según la norma ISO 27002, las empresas deben tomar medidas de seguridad para proteger los datos de los clientes, pues ellos son tan importantes como los productos y servicios que se estén ofertando; la protección de la información es el pilar fundamental de las empresas para brindar la confianza necesaria a sus clientes, a la marca y para captar nuevas oportunidades de negocios.
         .p-4.bg-primario-claro
-          p.mb-0 En Colombia, la entidad que regula y vigila el tratamiento de los datos de los usuarios es el Ministerio de las TIC que aplica los estándares de la Norma ISO 27002 para tal fin. La norma ISO 27002 (anteriormente denominada ISO 17799) es un estándar para la seguridad de la información que ha publicado la Organización Internacional de Normalización y la Comisión Electrotécnica Internacional; la versión más reciente de la norma es la ISO 27002:2013.
+          p.mb-0 En Colombia, la entidad que regula y vigila el tratamiento de los datos de los usuarios es el Ministerio de las TIC que aplica los estándares de la norma ISO 27002 para tal fin. La norma ISO 27002 (anteriormente denominada ISO 17799) es un estándar para la seguridad de la información que ha publicado la Organización Internacional de Normalización y la Comisión Electrotécnica Internacional; la versión más reciente de la norma es la ISO 27002:2013.
            
     p.mb-3 La norma ISO 27002 se debe implementar elaborando y manteniendo un inventario de activos de información, donde se muestren los propietarios de los activos con todos sus detalles, se debe utilizar un código de barras que facilite las tareas para la realización de los inventarios y vincular los equipos de tecnología de la información TI, que ingresan y salen de las instalaciones y los empleados responsables de ellos.
     p.mb-5 Para comprender más este tema, en el siguiente video se ofrecen los elementos generales de la seguridad de la información digital o ciberseguridad.
 
-    .video.mb-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/7DCfBZAsU0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/daQxBDbXRUc" title="Ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption #[strong Video]: apropiación de los conceptos en ciberseguridad
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
@@ -104,26 +106,26 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 Toda empresa u organización debe tener herramientas de seguridad digital para proteger los datos del cliente, esto le ofrecerá la tranquilidad y seguridad ya que la tecnología segura no permite que software malicioso ingrese y robe los datos que tenga de su cliente interno y su cliente externo, algunas de estas herramientas son:
+        p.mb-0 Toda empresa u organización debe tener herramientas de seguridad digital para proteger los datos del cliente, esto le ofrecerá la tranquilidad y seguridad ya que la tecnología segura no permite que #[em software] malicioso ingrese y robe los datos que tenga de su cliente interno y su cliente externo, algunas de estas herramientas son:
 
     .row.justify-content-center.mb-4.custom-tabs
       .col-xl-10
         TabsA.color-primario.mb-5(data-aos="fade-down")
-          .tarjeta.bg-primario-claro.p-4(titulo="Software de monitoreo a distancia")
+          .tarjeta.bg-primario-claro.p-4(titulo="<em>Software</em> de monitoreo a distancia")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
                   img.img-140(src='@/assets/curso/tema2/9.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9
-                p.mb-0 La herramienta de monitoreo remoto permite emitir diagnóstico y recopilar la información de los diferentes software y hardware que logren resolver cualquier eventualidad que pueda presentarse manteniendo la red en constante vigilancia para asegurar un correcto funcionamiento.
+                p.mb-0 La herramienta de monitoreo remoto permite emitir diagnóstico y recopilar la información de los diferentes #[em software] y #[em hardware] que logren resolver cualquier eventualidad que pueda presentarse manteniendo la red en constante vigilancia para asegurar un correcto funcionamiento.
           .tarjeta.bg-primario-claro.p-4(titulo="Escáner de vulnerabilidades")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
                   img.img-140(src='@/assets/curso/tema2/10.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
-                p.mb-0 Este sistema está hecho para detectar, evaluar y gestionar cualquier fragilidad que pueda existir en el sistema de forma que se puedan identificar y priorizar los puntos vulnerables de seguridad para disminuir y eliminar las probabilidades de engaño (phishing) y fraude de información confidencial.
-          .tarjeta.bg-primario-claro.p-4(titulo="Servidor proxy")
+                p.mb-0 Este sistema está hecho para detectar, evaluar y gestionar cualquier fragilidad que pueda existir en el sistema de forma que se puedan identificar y priorizar los puntos vulnerables de seguridad para disminuir y eliminar las probabilidades de engaño (#[em phishing]) y fraude de información confidencial.
+          .tarjeta.bg-primario-claro.p-4(titulo="Servidor <em>proxy</em>")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center

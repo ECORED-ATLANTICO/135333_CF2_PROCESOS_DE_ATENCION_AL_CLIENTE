@@ -20,7 +20,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema4/2.png", alt="descripcion")
       .col-lg-9
-        p Frecuentemente, se comete el error de utilizar los conceptos de información y comunicación de forma indistinta, cuando en realidad se dirigen a realidades diferentes. Según el modelo de comunicación de Shannon and Weaver (Models y Communication, 2011) Las diferencias entre los dos conceptos son:
+        p Frecuentemente, se comete el error de utilizar los conceptos de información y comunicación de forma indistinta, cuando en realidad se dirigen a realidades diferentes. Según el modelo de comunicación de Shannon and Weaver (#[em Models] y #[em Communication], 2011). Las diferencias entre los dos conceptos son:
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta custom-acordeon")
           .row(titulo="Información")
             .col-md-12.px-5
@@ -258,7 +258,7 @@
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 No contar con suficientes conocimientos o recursos
-              p.mb-4.mb-lg-0 Los clientes se frustran cuando la persona que los atiende no cuenta con los recursos suficientes o información para colaborarle con sus problemas o inquietudes, en estos casos el asesor debe saber dirigirlo al software de quejas y reclamos (CRM) para que le resuelvan sus dudas, pero antes de esto debe procurar resolver por sí mismo la situación.
+              p.mb-4.mb-lg-0 Los clientes se frustran cuando la persona que los atiende no cuenta con los recursos suficientes o información para colaborarle con sus problemas o inquietudes, en estos casos el asesor debe saber dirigirlo al #[em software] de quejas y reclamos (CRM) para que le resuelvan sus dudas, pero antes de esto debe procurar resolver por sí mismo la situación.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema4/14.png', alt='Imagen de acompañamiento')
@@ -371,7 +371,7 @@
               img.mb-3.mb-lg-0(src='@/assets/curso/tema4/25.png', alt='Imagen de acompañamiento')
           .col-12.col-lg-8
             p Con el ánimo de conocer con quién hacer valer sus derechos, los clientes deben conocer la jerarquización que se da en la atención al cliente. Esto está relacionado directamente con los puestos o roles que desempeña el equipo de trabajo que tiene que ver con esta función.
-            p En la jerarquización de la comunicación con los clientes juegan un papel fundamental los representantes de servicio al cliente, los agentes de los call center, los supervisores de servicio al cliente, los gerentes de servicio al cliente, los representantes de soporte técnico, los ingenieros de soporte técnico, etc.
+            p En la jerarquización de la comunicación con los clientes juegan un papel fundamental los representantes de servicio al cliente, los agentes de los #[em call center], los supervisores de servicio al cliente, los gerentes de servicio al cliente, los representantes de soporte técnico, los ingenieros de soporte técnico, etc.
             p.mb-0 Los representantes de servicio al cliente deben tener las siguientes cualidades:
 
     .row.justify-content-center.mb-4.mb-lg-5
@@ -410,7 +410,7 @@
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Agente de centro de llamadas
-              p.mb-4.mb-lg-0 Los funcionarios del centro de llamadas (call center) laboran internamente o en forma remota a través de  un centro de llamadas virtual, entre sus funciones está responder llamadas, solucionar quejas, despertar interés en el cliente y resolver transacciones, estos funcionarios reciben un gran número de llamadas al día.
+              p.mb-4.mb-lg-0 Los funcionarios del centro de llamadas (#[em call center]) laboran internamente o en forma remota a través de  un centro de llamadas virtual, entre sus funciones está responder llamadas, solucionar quejas, despertar interés en el cliente y resolver transacciones, estos funcionarios reciben un gran número de llamadas al día.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema4/27.png', alt='Imagen de acompañamiento')
@@ -580,16 +580,20 @@
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-4
           span.etiqueta-title Comunicación asertiva
-    .video.mb-4.mb-lg-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/VXQJ7DGmkio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen) 
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/CcQbRvyiAeg" title="Comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption #[strong Video]: comunicación asertiva
 
     .row.justify-content-center
       .col-xl-10
         h4(data-aos='zoom-in-right').mb-4
           span.etiqueta-title Criterios de comunicación asertiva
 
-    .video.mb-4.mb-lg-5
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/nfJPSfcl_tM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure.mb-5
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/G9WGoSbL6LQ" title="Criterios de comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption #[strong Video]: criterios de comunicación asertiva
    
 
 </template>

@@ -5,18 +5,18 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Elementos
+      h1 Portafolio de servicios
     
     .row.justify-content-center
       .col-xl-10
-        p.mb-0 Las condiciones del mercado han cambiado, anteriormente un empresario solo tenía como herramienta para atender al cliente su mirada para verlo a los ojos y su mano para estrecharla; #[strong las condiciones del mercado y los avances tecnológicos ofrecen un mundo de posibilidades para contactar al cliente], no solo física, sino virtualmente lo cual les permite ampliar sus expectativas de negocios ampliando la oferta y optimizando recursos.
+        p.mb-0 Las condiciones del mercado han cambiado, anteriormente un empresario solo tenía como herramienta para atender al cliente su mirada para verlo a los ojos y su mano para estrecharla; las condiciones del mercado y los avances tecnológicos ofrecen un mundo de posibilidades para contactar al cliente, no solo física, sino virtualmente lo cual les permite ampliar sus expectativas de negocios ampliando la oferta y optimizando recursos.
     
     Separador
     
     .row.justify-content-center
       .col-xl-10
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 3.1 Tipos
+          h2 3.1 Elementos
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-10.col-md-8.col-lg-6.col-xl-4
@@ -44,9 +44,6 @@
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Historia de la empresa.
-                    li.d-flex 
-                      i.fas.fa-check-circle.text-primario
-                      | Antecedentes.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Antecedentes.
@@ -99,7 +96,7 @@
                       | Nombre del producto o servicio.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Características del producto o servicio: Tamaño, forma, color, etc.
+                      | Características del producto o servicio: tamaño, forma, color, etc.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Empaque y etiquetado: fecha de vencimiento, recomendaciones de almacenamiento, etc.
@@ -148,13 +145,13 @@
                   ul.lista-ul
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      span Página <em>web</em>.
+                      span Página web.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Correo electrónico.
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
-                      | Blog.
+                      | #[em Blog].
                     li.d-flex 
                       i.fas.fa-check-circle.text-primario
                       | Teléfonos fijos.
@@ -198,15 +195,15 @@
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8
-            img.img-120(src='@/assets/curso/tema3/2.svg' alt='AvatarTop')
-        h5.text-center Visión
-        p.text-center Se plantea en años lo que se desea lograr, hay que tener en cuenta la tecnología y la globalización para no quedar mal con nuestros clientes en caso de que no se logre cumplir.
-      .tarjeta.bg-slider-f.p-4
-        .row.justify-content-center.mb-3
-          .col-8
             img.img-120(src='@/assets/curso/tema3/3.svg' alt='AvatarTop')
         h5.text-center Misión
         p.text-center Es donde se desarrolla el objetivo general, es la razón de ser y el propósito de la empresa.
+      .tarjeta.bg-slider-f.p-4
+        .row.justify-content-center.mb-3
+          .col-8
+            img.img-120(src='@/assets/curso/tema3/2.svg' alt='AvatarTop')
+        h5.text-center Visión
+        p.text-center Se plantea en años lo que se desea lograr, hay que tener en cuenta la tecnología y la globalización para no quedar mal con nuestros clientes en caso de que no se logre cumplir.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
           .col-8

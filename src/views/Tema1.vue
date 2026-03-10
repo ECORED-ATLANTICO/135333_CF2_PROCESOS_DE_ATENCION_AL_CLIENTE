@@ -17,7 +17,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los millennials (personas nacidas entre 1980 y 1995, también llamados generación Y, son reconocidos por tener sentido de equipo, actitud positiva y espíritu racional) usan para comunicarse los chats y sus teléfonos móviles. Por eso, las empresas deben implementar sistemas de atención teniendo en cuenta las preferencias de estos consumidores, ya que existe una transformación digital para la atención al cliente (Novella et al., 2018).
+            p.mb-0 Los #[em millennials] (personas nacidas entre 1980 y 1995, también llamados generación Y, son reconocidos por tener sentido de equipo, actitud positiva y espíritu racional) usan para comunicarse los chats y sus teléfonos móviles. Por eso, las empresas deben implementar sistemas de atención teniendo en cuenta las preferencias de estos consumidores, ya que existe una transformación digital para la atención al cliente (Novella et al., 2018).
 
     p.mb-4.mb-lg-5 Las tres características de un sistema eficaz de atención al cliente son las siguientes:
 
@@ -40,8 +40,9 @@
 
     p.mb-4.mb-lg-5 A continuación, se presenta el siguiente recurso, donde se amplían los detalles de cada una de estas características.
 
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/8gZTBdLt_IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .video.mb-2
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/UQdz4zPW-tU" title="Características de un sistema eficaz de atención al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+    figcaption #[strong Video]: características de un sistema eficaz de atención al cliente
 
     Separador
     
@@ -72,7 +73,7 @@
         .row.justify-content-center.mb-3
           .col-8
             img.img-120(src='@/assets/curso/tema1/7.svg' alt='AvatarTop')
-        h5.text-center Livechat y chatbot
+        h5.text-center #[em Livechat] y #[em chatbot]
         p.text-center Comunicación en tiempo real; los usuarios escriben mensajes en su teclado, y el texto aparece automáticamente y al instante en el monitor de todos los participantes.
       .tarjeta.bg-slider-f.p-4
         .row.justify-content-center.mb-3
@@ -84,15 +85,17 @@
         .row.justify-content-center.mb-3
           .col-8
             img.img-120(src='@/assets/curso/tema1/9.svg' alt='AvatarTop')
-        h5.text-center E-mail
+        h5.text-center #[em E-mail]
         p.text-center Sistema que permite el intercambio de mensajes entre distintas computadoras interconectadas a través de una red.
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         p.mb-0 A continuación, se verán los tipos de canales utilizados por los clientes.
 
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/7fnr7D7cl7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure
+      .video.mb-2
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/oHvzUH6d4IU" title="Canales utilizados por los clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption #[strong Video]: canales utilizados por los clientes
 
     Separador
 
@@ -121,8 +124,8 @@
                 img(src='@/assets/curso/tema1/11.png', alt='Imagen de acompañamiento')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
-              h4.mb-4 Software para optimizar
-              p.mb-4.mb-lg-0 El software en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El software especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes etc. Cada vez más son indispensables para la gerencia de las empresas.
+              h4.mb-4 #[em Software] para optimizar
+              p.mb-4.mb-lg-0 El #[em software] en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El #[em software] especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes etc. Cada vez más son indispensables para la gerencia de las empresas.
             .col-lg-6
               figure
                 img(src='@/assets/curso/tema1/12.png', alt='Imagen de acompañamiento')
@@ -179,14 +182,14 @@
                 figure.justify-center
                   img.img-140(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
-                p.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el marketing relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes.
+                p.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el #[em marketing] relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes.
           .tarjeta.bg-primario-claro.p-4(titulo="Utilizar la tecnología a su favor")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
                   img.img-140(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen')
               .col-12.col-lg-9    
-                p.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan cada la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
+                p.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
 
 </template>
 
