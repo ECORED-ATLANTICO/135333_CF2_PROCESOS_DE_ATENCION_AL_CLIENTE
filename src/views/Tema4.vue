@@ -182,7 +182,7 @@
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
                 span 1
-              span Sitio <em>web</em>.
+              span Sitio web.
             li.d-flex 
               .lista-ol--cuadro__vineta.colr_3.text-bold
                 span 2
@@ -375,17 +375,17 @@
             p.mb-0 Los representantes de servicio al cliente deben tener las siguientes cualidades:
 
     .row.justify-content-center.mb-4.mb-lg-5
-      .col-md-4.col-lg-4.mb-4.mb-xl-0(data-aos="fade-up")
+      .col-10.col-md-6.col-lg-4.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta-numerada.color-primario.ps-5.px-4.py-3.h-100.d-flex.align-items-center
           .tarjeta-numerada__numero
             .h2 1
           P.mb-0 Capacidad de escuchar atentamente las necesidades del cliente en poco tiempo.
-      .col-md-4.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
+      .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta-numerada.color-primario.ps-5.px-4.py-3.h-100.d-flex.align-items-center
           .tarjeta-numerada__numero
             .h2 2
           P.mb-0 Empatizar con el cliente, ponerse en sus zapatos.
-      .col-md-4.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
+      .col-10.col-md-6.col-lg-4.col-xl-3.mb-4.mb-xl-0(data-aos="fade-up")
         .tarjeta-numerada.color-primario.ps-5.px-4.py-3.h-100.d-flex.align-items-center
           .tarjeta-numerada__numero
             .h2 3

@@ -91,13 +91,13 @@
       .col-xl-10
         p.mb-0 A continuación, se verán los tipos de canales utilizados por los clientes.
 
-    .video.mb-5
+    .video
       iframe(width="560" height="315" src="https://www.youtube.com/embed/7fnr7D7cl7M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
- 
-    .row.justify-content-center
-      .col-xl-10
-        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 1.2 Características
+
+    Separador
+
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 1.2 Características
 
     p.mb-6 Los recursos tecnológicos para atender al cliente cuentan con características tales como control y seguimiento, y permiten reclamaciones telefónicamente, por página web, correo electrónico o cualquier otro medio que utilice la empresa. Las características más importantes de los recursos tecnológicos son las siguientes:
 

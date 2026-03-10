@@ -154,11 +154,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -180,32 +175,6 @@ export default {
       },
     ],
   },
-  complementario: [
-    {
-      tema: 'Norma ISO 27002',
-      referencia:
-        'ISO Tools Excellence. (2017). <i>Seguridad de la información</i>. https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/',
-      tipo: 'Blog',
-      link:
-        'https://www.pmg-ssi.com/2017/08/norma-iso-27002-politica-seguridad/',
-    },
-    {
-      tema: 'Comunicación',
-      referencia:
-        'Blanco, G., C. (2013). <i>Comunicación y atención al cliente</i>. Macmillan Iberia, S.A.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/42955',
-    },
-    {
-      tema: 'Protocolo',
-      referencia:
-        'Orozco, L., J. D. D. (2016). <i>Protocolo para la organización de actos oficiales y empresariales</i>. IC Editorial.',
-      tipo: 'Libro',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/44621',
-    },
-  ],
   glosario: [
     {
       termino: 'Canal de comunicación',
@@ -343,14 +312,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo:
+            'Responsable del Ecosistema de Recursos Educativos Digitales (RED)',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Miguel de Jesús Paredes Maestre ',
           cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
@@ -358,9 +328,27 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Esperanza Cardona Grisales',
+          cargo: 'Experta temática',
+          centro: 'Centro de Comercio y Servicios Regional - Cauca',
+        },
+        {
+          nombre: 'Nelly Parra Guarín',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de la Industria, la empresa y los Servicios Regional - Huila',
+        },
+        {
+          nombre: 'Alex García',
+          cargo: 'Diseñador instruccional',
+          centro:
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander ',
         },
       ],
     },
@@ -368,19 +356,67 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Carmen Alicia Martínez Torres ',
+          cargo: 'Diseñador web',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Fabio Fonseca Arguelles',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
+        },
+
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y productor audiovisual ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Zuleidy María Ruíz Torres',
+          cargo: 'Producción audiovisual',
+          centro: 'Centro de Comercio y Servicios Regional - Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey',
+          cargo: 'Locución',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Oleg Litvin',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Yicelly Estefania Mesa Silva',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+        },
+        {
+          nombre: 'Ludwyng Corzo García',
+          cargo: 'Producción audiovisual',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
       ],
     },
@@ -388,14 +424,24 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Luz Karime Amaya Cabra',
+          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Laura Daniela Burgos Rueda',
           cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Jonathan Adié Villafañe',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
+        },
+        {
+          nombre: 'Karine Isabel Ospino Fritz',
+          cargo: 'Validador y vinculador de recursos digitales',
+          centro: 'Centro de Comercio y Servicios - Regional Atlántico',
         },
       ],
     },
