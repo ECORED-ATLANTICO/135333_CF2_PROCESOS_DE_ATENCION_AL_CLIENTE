@@ -41,7 +41,7 @@
     p.mb-4.mb-lg-5 A continuación, se presenta el siguiente recurso, donde se amplían los detalles de cada una de estas características.
 
     .video.mb-2
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/UQdz4zPW-tU" title="Características de un sistema eficaz de atención al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/4Yjn8iV9c3w" title="Características de un sistema eficaz de atención al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
     figcaption #[strong Video]: características de un sistema eficaz de atención al cliente
 
     Separador
@@ -94,7 +94,7 @@
 
     figure
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/oHvzUH6d4IU" title="Canales utilizados por los clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/dDR-_jNxToE" title="Canales utilizados por los clientes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption #[strong Video]: canales utilizados por los clientes
 
     Separador

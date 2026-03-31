@@ -579,7 +579,7 @@
           span.etiqueta-title Comunicación asertiva
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/CcQbRvyiAeg" title="Comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/EHr4wRLbe64" title="Comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption #[strong Video]: comunicación asertiva
 
     .row.justify-content-center
@@ -589,7 +589,7 @@
 
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/G9WGoSbL6LQ" title="Criterios de comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/OMd5P7X08G0" title="Criterios de comunicación asertiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption #[strong Video]: criterios de comunicación asertiva
    
 

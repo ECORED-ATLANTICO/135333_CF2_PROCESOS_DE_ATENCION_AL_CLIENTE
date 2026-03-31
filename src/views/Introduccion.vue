@@ -17,7 +17,7 @@
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/5hqcLAGbq3E" title="Protocolos de servicio al cliente: introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WLN6L02kbUA" title="Protocolos de servicio al cliente: introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption #[strong Video]: protocolos de servicio al cliente: introducción
 
 </template>
