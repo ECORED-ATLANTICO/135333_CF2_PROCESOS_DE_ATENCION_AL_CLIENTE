@@ -161,7 +161,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA2_135333__DU.pdf',
+        download: 'downloads/CFA2_135333_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -338,12 +338,6 @@ export default {
           nombre: 'Esperanza Cardona Grisales',
           cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicios Regional - Cauca',
-        },
-        {
-          nombre: 'Nelly Parra Guarín',
-          cargo: 'Experta temática',
-          centro:
-            'Centro de la Industria, la empresa y los Servicios Regional - Huila',
         },
         {
           nombre: 'Alex García',

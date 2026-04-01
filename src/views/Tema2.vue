@@ -23,7 +23,7 @@
     figure.mb-5
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/5M3bkF9qK5Y" title="Ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption #[strong Video]: apropiación de los conceptos en ciberseguridad
+      figcaption #[strong Video]: ciberseguridad
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
