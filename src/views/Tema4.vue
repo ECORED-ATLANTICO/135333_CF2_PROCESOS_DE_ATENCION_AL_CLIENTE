@@ -66,7 +66,7 @@
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 2.
-          span Recomendaciones.
+          span Recomendaciones
         .tabla-a.color-primario
           table
             caption <b>Nota.</b> Tomada de Cámara de Comercio de Medellín (s. f.).
@@ -449,10 +449,10 @@
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 3.
-          span Técnicas objetivos y estrategias de comunicación.
+          span Técnicas objetivos y estrategias de comunicación
         .tabla-a.color-primario
           table
-            caption <b>Nota.</b> Tomada de Cámara de Comercio de Medellín (s. f.).
+            caption Nota. Tomada de Cámara de Comercio de Medellín (s. f.).
             thead
               tr
                 th Técnica
