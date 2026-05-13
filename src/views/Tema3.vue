@@ -29,7 +29,7 @@
     .row.justify-content-center(data-aos="fade-left")
       .titulo-sexto.color-acento-contenido.mb-4
         h5 Tabla 1.
-        span Elementos necesarios para que un portafolio cumpla con su objetivo.
+        span Elementos necesarios para que un portafolio cumpla con su objetivo
       .col-12.col-xl-10
         .tabla-a.color-primario
           table
@@ -273,7 +273,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema3/10.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El mundo digital es utilizado cada vez con más frecuencia, por esto se recomienda que las empresas promuevan su portafolio de las dos formas para captar más clientes, en el caso de las microempresas como los restaurantes utilizan la carta impresa y una app (aplicación móvil que se puede escanear con un QR), facilitando al cliente la elección de los platos para hacer su pedido.
+            p.mb-0 El mundo digital es utilizado cada vez con más frecuencia, por esto se recomienda que las empresas promuevan su portafolio de las dos formas para captar más clientes, en el caso de las microempresas, como los restaurantes, utilizan la carta impresa y una app (aplicación móvil que se puede escanear con un QR), facilitando al cliente la elección de los platos para hacer su pedido.
 </template>
 
 <script>

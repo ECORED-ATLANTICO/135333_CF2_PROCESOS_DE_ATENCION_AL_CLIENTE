@@ -17,15 +17,15 @@
         .p-4.bg-primario-claro
           p.mb-0 En Colombia, la entidad que regula y vigila el tratamiento de los datos de los usuarios es el Ministerio de las TIC que aplica los estándares de la norma ISO 27002 para tal fin. La norma ISO 27002 (anteriormente denominada ISO 17799) es un estándar para la seguridad de la información que ha publicado la Organización Internacional de Normalización y la Comisión Electrotécnica Internacional; la versión más reciente de la norma es la ISO 27002:2013.
            
-    p.mb-3 La norma ISO 27002 se debe implementar elaborando y manteniendo un inventario de activos de información, donde se muestren los propietarios de los activos con todos sus detalles, se debe utilizar un código de barras que facilite las tareas para la realización de los inventarios y vincular los equipos de tecnología de la información TI, que ingresan y salen de las instalaciones y los empleados responsables de ellos.
-    p.mb-5 Para comprender más este tema, en el siguiente video se ofrecen los elementos generales de la seguridad de la información digital o ciberseguridad.
+    p.mb-3.z-2 La norma ISO 27002 se debe implementar elaborando y manteniendo un inventario de activos de información, donde se muestren los propietarios de los activos con todos sus detalles, se debe utilizar un código de barras que facilite las tareas para la realización de los inventarios y vincular los equipos de tecnología de la información TI, que ingresan y salen de las instalaciones y los empleados responsables de ellos.
+    p.mb-5.z-2 Para comprender más este tema, en el siguiente video se ofrecen los elementos generales de la seguridad de la información digital o ciberseguridad.
 
-    figure.mb-5
+    figure.mb-5.z-2
       .video.mb-2
         iframe(width="560" height="315" src="https://www.youtube.com/embed/5M3bkF9qK5Y" title="Ciberseguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
       figcaption #[strong Video]: ciberseguridad
 
-    .row.justify-content-center.mb-4.mb-lg-5
+    .row.justify-content-center.mb-4.mb-lg-5.z-2
       .col-xl-10
         p.mb-0 Existen cinco prácticas muy utilizadas por las empresas para garantizar la protección de datos de los clientes, a saber:
 
@@ -34,8 +34,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span Prácticas para la protección de datos
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/2-mob.svg", alt="alt")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/2.svg", alt="alt")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/2-mob.svg", alt="Ilustración de un escudo dividido en cuatro secciones con el título central “Medios electrónicos certificados”. Alrededor se presentan cuatro medidas de seguridad de la información: backup en la nube, copia de seguridad, carpetas con contraseñas y centralización de la información, cada una representada con iconos relacionados con servidores, bases de datos y protección digital.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/2.svg", alt="Ilustración de un escudo dividido en cuatro secciones con el título central “Medios electrónicos certificados”. Alrededor se presentan cuatro medidas de seguridad de la información: backup en la nube, copia de seguridad, carpetas con contraseñas y centralización de la información, cada una representada con iconos relacionados con servidores, bases de datos y protección digital.")
         figcaption #[strong Nota.] SENA, 2026.
 
     p.mb-4.mb-lg-5 A continuación, se desarrolla cada una de las prácticas que garantizan la protección de los datos de los clientes:
@@ -45,8 +45,8 @@
         .row.align-items-center.justify-content-around
           .col-lg-8.col-xl-7
             h4 Medios electrónicos certificados
-            p Para garantizar la protección de datos tanto del cliente como de la empresa se deben ejecutar acuerdos y aprobaciones usando una tecnología segura, en la actualidad puede realizarse desde un computador, un celular o una tableta.
-            p.mb-4.mb-lg-0 Se recomienda la utilización de herramientas electrónicas rápidas y seguras, como por ejemplo la firma electrónica que permite cargar y enviar archivos protegidos evitando que otros los firmen, ya que es una tecnología vanguardista de criptografía de datos que ofrece una mayor protección y respeta las exigencias del mercado. De esta manera se estarán protegiendo los datos del cliente y de la empresa y brindando un excelente servicio en las transacciones electrónicas y dejar constancia de la veracidad del firmante.
+            p Para garantizar la protección de datos tanto del cliente como de la empresa, se deben ejecutar acuerdos y aprobaciones usando una tecnología segura, en la actualidad puede realizarse desde un computador, un celular o una tableta.
+            p.mb-4.mb-lg-0 Se recomienda la utilización de herramientas electrónicas rápidas y seguras, como por ejemplo la firma electrónica, que permite cargar y enviar archivos protegidos evitando, que otros los firmen, ya que es una tecnología vanguardista de criptografía de datos que ofrece una mayor protección y respeta las exigencias del mercado. De esta manera se estarán protegiendo los datos del cliente y de la empresa y brindando un excelente servicio en las transacciones electrónicas y dejar constancia de la veracidad del firmante.
           .col-8.col-md-6.col-lg-4.col-xl-3
             figure
               img.img-180(src='@/assets/curso/tema2/3.svg', alt='Texto que describa la imagen')
@@ -63,7 +63,7 @@
         .row.align-items-center.justify-content-around
           .col-lg-8.col-xl-7
             h4 Carpetas con contraseñas
-            p.mb-4.mb-lg-0 Para mejorar la seguridad de los datos del cliente se puede personalizar a cada uno, organizándolos en carpetas individuales con claves específicas a las que solo tengan acceso y las conozca el personal autorizado para esta función.
+            p.mb-4.mb-lg-0 Para mejorar la seguridad de los datos del cliente, se puede personalizar a cada uno, organizándolos en carpetas individuales con claves específicas a las que solo tengan acceso y las conozca el personal autorizado para esta función.
           .col-8.col-md-6.col-lg-4.col-xl-3
             figure
               img.img-180(src='@/assets/curso/tema2/5.svg', alt='Texto que describa la imagen')
@@ -72,7 +72,7 @@
           .col-lg-8.col-xl-7
             h4 <em>Backup</em> en la nube
             p El <em>cloud storage</em> (almacenamiento en la nube) es un servicio tecnológico creado para obtener mayor espacio de almacenamiento, caracterizado por fácil acceso a la información y la protección de los datos del cliente.
-            p.mb-4.mb-lg-0 Hace algunos años la información la guardábamos en dispositivos poco seguros, disquetes, discos ZIP, USB, DVD, CD o discos portátiles que, con el tiempo, algunos de estos se dañaban y se perdía la información o peor aún si se perdían podían caer en manos no deseadas.
+            p.mb-4.mb-lg-0 Hace algunos años la información la guardábamos en dispositivos poco seguros, disquetes, discos ZIP, USB, DVD, CD o discos portátiles que, con el tiempo, algunos de estos se dañaban y se perdía la información o peor aún, si se perdían, podían caer en manos no deseadas.
           .col-8.col-md-6.col-lg-4.col-xl-3
             figure
               img.img-180(src='@/assets/curso/tema2/6.svg', alt='Texto que describa la imagen')
@@ -95,8 +95,8 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Ciberataques en Colombia
-        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/8-mob.svg", alt="pendiente text alt")
-        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/8.svg", alt="pendiente text alt")
+        img.mb-2.d-sm-none(data-aos="fade-up", src="@/assets/curso/tema2/8-mob.svg", alt="Infografía sobre el panorama de ciberataques en Colombia 2024–2025 que muestra estadísticas y modalidades más usadas. Indica que en 2024 hubo 36.000 millones de intentos de ciberataque y 77.666 denuncias por delitos informáticos, mientras que en el segundo semestre de 2025 se detectaron 7.100 millones de intentos. Destaca el hurto por medios informáticos como la modalidad más común, el phishing con inteligencia artificial y el uso de deepfakes, además de señalar que las entidades más suplantadas son la DIAN, la Fiscalía General de la Nación y la Policía Nacional.")
+        img.mb-2.d-none.d-sm-block(data-aos="fade-up", src="@/assets/curso/tema2/8.svg", alt="Infografía sobre el panorama de ciberataques en Colombia 2024–2025 que muestra estadísticas y modalidades más usadas. Indica que en 2024 hubo 36.000 millones de intentos de ciberataque y 77.666 denuncias por delitos informáticos, mientras que en el segundo semestre de 2025 se detectaron 7.100 millones de intentos. Destaca el hurto por medios informáticos como la modalidad más común, el phishing con inteligencia artificial y el uso de deepfakes, además de señalar que las entidades más suplantadas son la DIAN, la Fiscalía General de la Nación y la Policía Nacional.")
         figcaption #[strong Nota.] SENA, 2026.
 
     .row.justify-content-center
@@ -139,7 +139,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/15.png", alt="descripcion")
       .col-lg-6
-        p Las empresas tuvieron que cambiar su estructura e invertir en seguridad digital para la protección de sus datos y los de sus clientes ante la enorme transformación digital que vive el mundo. Como las empresas deben tener seguros sus procesos para captar potenciales clientes, esto no solo debe hacerse en términos digitales, sino también jurídicos lo que le generará confianza al cliente.
+        p Las empresas tuvieron que cambiar su estructura e invertir en seguridad digital para la protección de sus datos y los de sus clientes ante la enorme transformación digital que vive el mundo. Como las empresas deben tener seguros sus procesos para captar potenciales clientes, esto no solo debe hacerse en términos digitales, sino también jurídicos, lo que le generará confianza al cliente.
         p.mb-0 La utilización de medidas jurídicas para la protección de la información es una de las técnicas más antiguas y efectivas dentro del ámbito laboral, y funcionan de la siguiente manera:
 
 

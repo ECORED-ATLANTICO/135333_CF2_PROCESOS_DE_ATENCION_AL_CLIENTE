@@ -13,21 +13,19 @@
         figure(data-aos="fade-left")
           img(src="@/assets/curso/intro-icon.svg" alt="icono de acompañamiento")
       .col-lg-9.col-xl-10
-        p.mb-0 Le damos la bienvenida al componente formativo Protocolos de servicio al cliente, y para comenzar satisfactoriamente este recorrido se invita a explorar el recurso que se muestra a continuación: 
+        p.mb-0 Le damos la bienvenida al componente formativo Protocolos de servicio al cliente, y para comenzar satisfactoriamente este recorrido, lo invitamos a explorar el siguiente recurso educativo:
     
     figure.mb-5
       .video.mb-2
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/WLN6L02kbUA" title="Protocolos de servicio al cliente: introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-      figcaption #[strong Video]: protocolos de servicio al cliente: introducción
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/WLN6L02kbUA" title="Protocolos de servicio al cliente introducción" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+      figcaption #[strong Video]: protocolos de servicio al cliente introducción
 
 </template>
 
 <script>
 export default {
   name: 'Introduccion',
-  data: () => ({
-    // variables de vue
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

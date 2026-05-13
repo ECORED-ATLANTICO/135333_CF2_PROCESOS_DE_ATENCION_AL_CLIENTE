@@ -60,7 +60,7 @@
                 li.d-flex.mb-3
                   .lista-ol--cuadro__vineta.lista-ol--cuadro__vineta--secundario
                     span e
-                  | Plan de contingencia en situaciones inesperadas especialmente cuando deben atender a cliente en condiciones de discapacidad o clientes insatisfechos o agresivos, esto les enseñará a solucionar problemas complejos.
+                  | Plan de contingencia en situaciones inesperadas especialmente cuando deben atender a clientes en condiciones de discapacidad o clientes insatisfechos o agresivos, esto les enseñará a solucionar problemas complejos.
             .d-none.d-lg-block.col-lg-5.col-xl-3
               figure
                 img(src="@/assets/curso/tema5/2.png", alt="Imagen de acompañamiento")
@@ -110,10 +110,10 @@
           .row(titulo="Capacitar al personal constantemente")
             .col-md-12.px-5
               p.mb-0 Las empresas deben capacitar a sus empleados para que puedan mostrar su profesionalismo al desempeñar su función, pues para el trato que deben tener los funcionarios de servicio al cliente con el público no es suficiente que tengan paciencia. Tiene que ver con la capacidad de utilizar herramientas para darle a cada cliente el manejo adecuado.
-          .row(titulo="La visión de tu empresa es importante")
+          .row(titulo="La visión de la empresa es importante")
             .col-md-12.px-5
               p Las empresas tienen sistemas de última tecnología, pero si no cuentan con departamento de servicio al cliente pueden fracasar, por eso, es importante que, al menos, tengan una persona a cargo con el fin de dar una atención de calidad al usuario.
-          .row(titulo="Conoce a tus clientes")
+          .row(titulo="Conocer a sus clientes")
             .col-md-12.px-5
               p A los clientes les gusta sentirse halagados e importantes. Los empleados deberían ser capaces de detectar el momento por el que esté pasando el cliente que llega enojado o en cualquier otro estado de ánimo; así podrán atender cualquier situación incómoda.
           .row(titulo="Seleccionar y retener personal de calidad")

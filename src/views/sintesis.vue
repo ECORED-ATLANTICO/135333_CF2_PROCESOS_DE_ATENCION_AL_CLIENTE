@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-12.mb-5.p-4
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+          img(src="@/assets/curso/sintesis.svg", alt="La imagen presenta un esquema sobre los protocolos de servicio al cliente, en el cual se organizan los principales componentes que intervienen en la atención al cliente dentro de una empresa. Incluye aspectos como los recursos tecnológicos para atender al cliente (tipos, características y manejo), la normatividad de seguridad de la información al contactarlo, el portafolio de servicios con sus elementos y características, y la comunicación con el cliente, que abarca sus características, jerarquización, técnicas de comunicación oral, escrita y corporal, así como la comunicación efectiva y asertiva. Además, incorpora la etiqueta y el protocolo en la atención al cliente con sus reglas y normas, y las relaciones interpersonales, considerando sus tipos y factores.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

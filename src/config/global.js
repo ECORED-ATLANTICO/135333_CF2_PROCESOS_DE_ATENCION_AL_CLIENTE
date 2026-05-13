@@ -343,7 +343,17 @@ export default {
           nombre: 'Alex García',
           cargo: 'Diseñador instruccional',
           centro:
-            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander ',
+            'Centro de la Industria, la Empresa y los Servicios Regional - Norte de Santander',
+        },
+        {
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor metodológico',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
+        },
+        {
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
+          centro: 'Centro de Diseño y Metrología Regional - Distrito Capital',
         },
       ],
     },
@@ -353,65 +363,76 @@ export default {
         {
           nombre: 'Carmen Alicia Martínez Torres ',
           cargo: 'Diseñador web',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
-        },
-        {
-          nombre: 'Fabio Fonseca Arguelles',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Comercio y Servicios - Regional Atlántico ',
-        },
-
-        {
-          nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y productor audiovisual ',
           centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Producción audiovisual',
-          centro: 'Centro de Comercio y Servicios Regional - Tolima',
+          nombre: 'Fabio Fonseca Arguelles ',
+          cargo: 'Desarrollador full stack ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
         },
         {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Producción audiovisual',
+          nombre: 'Nelson Iván Vera Briceño ',
+          cargo: 'Animador y productor audiovisual ',
+          centro: 'Centro de Comercio y Servicios – Regional Atlántico',
+        },
+        {
+          nombre: 'Zuleidy María Ruíz Torres ',
+          cargo: 'Producción audiovisual ',
+          centro: 'Centro de Comercio y Servicios -Regional Tolima',
+        },
+        {
+          nombre: 'Wilson Andrés Arenales Cáceres ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Gilberto Junior Rodríguez Rodríguez ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Camilo Andrés Bolaño Rey ',
+          cargo: 'Locución ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Oleg Litvin ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Yicelly Estefania Mesa Silva ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Ludwyng Corzo García ',
+          cargo: 'Producción audiovisual ',
+          centro:
+            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+        },
+        {
+          nombre: 'Carlos Andrés Díaz Pinto ',
+          cargo: 'Desarrollo Front-end ',
           centro:
             'Centro Industrial del Diseño y la Manufactura Regional - Santander',
         },
         {
-          nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Producción audiovisual',
+          nombre: 'Yuli Marcela Gómez Tarazona ',
+          cargo: 'Validación de diseño y contenido ',
           centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: 'Locución',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-        },
-        {
-          nombre: 'Oleg Litvin',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-        },
-        {
-          nombre: 'Yicelly Estefania Mesa Silva',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
-        },
-        {
-          nombre: 'Ludwyng Corzo García',
-          cargo: 'Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura Regional - Santander',
+            'Centro Industrial del Diseño y la Manufactura Regional Santander',
         },
       ],
     },

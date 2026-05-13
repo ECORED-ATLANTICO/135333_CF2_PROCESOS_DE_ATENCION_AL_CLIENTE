@@ -32,7 +32,7 @@
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         p La comunicación con el cliente debe ser clara para no confundir al público, no importa lo que le tenga que decir, lo importante es evitar confusiones que puedan dejarle una mala experiencia y reputación de la empresa.
-        p.mb-0 Tener una comunicación clara y adecuada don el cliente trae tres grandes beneficios.
+        p.mb-0 Tener una comunicación clara y adecuada con el cliente trae tres grandes beneficios.
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5
       .col-md-6.col-lg-4
@@ -59,7 +59,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p De acuerdo al manual de protocolo para la atención a personas en situación de discapacidad de la Cámara de Comercio de Medellín y a la Convención Internacional sobre los Derechos de las Personas con Discapacidad, así como al Servicio Nacional de la Discapacidad, existen pautas de comunicación para la atención al cliente en condición de discapacidad. Si consigue aplicarlas estará ampliando su mercado, lo que será rentable para su empresa y justo para esta población, ya que son personas que merecen las mismas oportunidades.
+        p De acuerdo al manual de protocolo para la atención a personas en situación de discapacidad de la Cámara de Comercio de Medellín y a la Convención Internacional sobre los Derechos de las Personas con Discapacidad, así como al Servicio Nacional de la Discapacidad, existen pautas de comunicación para la atención al cliente en condición de discapacidad. Si consigue aplicarlas, estará ampliando su mercado, lo que será rentable para su empresa y justo para esta población, ya que son personas que merecen las mismas oportunidades.
         p.mb-0 Se deben tener en cuenta las siguientes recomendaciones:
 
     .row.justify-content-center
@@ -225,7 +225,7 @@
 
     .row.justify-content-center.mb-6
       .col-xl-10
-        p.mb-0 Las empresas deben crear estrategias para tener una buena comunicación con sus clientes, sin importar el canal. Se deben evitar al máximo los errores ya que estos afectan la imagen de la empresa y hacen perder clientes. Ahora, se presentan los cuatro errores de comunicación más comunes en la interacción con los clientes.
+        p.mb-0 Las empresas deben crear estrategias para tener una buena comunicación con sus clientes, sin importar el canal. Se deben evitar al máximo los errores, ya que estos afectan la imagen de la empresa y hacen perder clientes. Ahora, se presentan los cuatro errores de comunicación más comunes en la interacción con los clientes.
 
     div.slider-wrapper.z-2.mb-6
       .bg-fullwidth

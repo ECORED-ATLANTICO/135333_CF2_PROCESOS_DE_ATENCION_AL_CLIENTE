@@ -9,7 +9,7 @@
     
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 De acuerdo con el Instituto Nacional de Ciberseguridad de España, muchas empresas aún cuentan con métodos tradicionales que son poco efectivos para atender a los clientes; ellas continúan utilizando el teléfono e incluso personalmente, mientras que las nuevas generaciones cada día utilizan más las nuevas tecnologías.
+        p.mb-0 De acuerdo con el Instituto Nacional de Ciberseguridad de España, muchas empresas aún cuentan con métodos tradicionales que son poco efectivos para atender al clientes; ellas continúan utilizando el teléfono e incluso personalmente, mientras que las nuevas generaciones cada día utilizan más las nuevas tecnologías.
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5
@@ -17,7 +17,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/tema1/1.jpg')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 Los #[em millennials] (personas nacidas entre 1980 y 1995, también llamados generación Y, son reconocidos por tener sentido de equipo, actitud positiva y espíritu racional) usan para comunicarse los chats y sus teléfonos móviles. Por eso, las empresas deben implementar sistemas de atención teniendo en cuenta las preferencias de estos consumidores, ya que existe una transformación digital para la atención al cliente (Novella et al., 2018).
+            p.mb-0 Los millennials (personas nacidas entre 1980 y 1995, también llamados generación Y, son reconocidos por tener sentido de equipo, actitud positiva y espíritu racional) usan para comunicarse los chats y sus teléfonos móviles. Por eso, las empresas deben implementar sistemas de atención teniendo en cuenta las preferencias de estos consumidores, ya que existe una transformación digital para la atención al cliente (Novella et al., 2018).
 
     p.mb-4.mb-lg-5 Las tres características de un sistema eficaz de atención al cliente son las siguientes:
 
@@ -38,11 +38,11 @@
             img.tarjeta-label__icon.position-absolute.img-85(src='@/assets/curso/tema1/4.svg' alt='AvatarTop')
             p.ms-5.mb-0 Identificar el tipo de comunicación del cliente.
 
-    p.mb-4.mb-lg-5 A continuación, se presenta el siguiente recurso, donde se amplían los detalles de cada una de estas características.
+    p.mb-4.mb-lg-5 Para ampliar la información sobre cada una de estas características, consulte el recurso educativo asociado a la comunicación del servicio al cliente.
 
     .video.mb-2
       iframe(width="560" height="315" src="https://www.youtube.com/embed/4Yjn8iV9c3w" title="Características de un sistema eficaz de atención al cliente" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-    figcaption #[strong Video]: características de un sistema eficaz de atención al cliente
+    figcaption #[strong Video]: Características de un sistema eficaz de atención al cliente
 
     Separador
     
@@ -90,7 +90,7 @@
 
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
-        p.mb-0 A continuación, se explicarán los tipos de canales utilizados por los clientes.
+        p.mb-0 El siguiente contenido presenta los tipos de canales utilizados por los clientes y sus principales características.
 
     figure
       .video.mb-2
@@ -114,29 +114,29 @@
               p.mb-4.mb-lg-0 La tecnología es parte de nuestras vidas; facilita la comunicación interpersonal sin importar donde esté. La llegada de últimas tecnologías para la conectividad, como 5G, o la inteligencia artificial hace que cada vez se pueda contar con avances tecnológicos. Las TIC están presentes en todos los ámbitos de la sociedad. El ser humano no se detiene en la búsqueda de avances tecnológicos.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema1/10.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema1/10.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Intercambio de productos y servicios
               p.mb-4.mb-lg-0 Las diferentes redes sociales se encuentran a disposición de todo tipo de público, y estas se han convertido en aliadas importantes para la oferta y la demanda de toda clase de productos y servicios que son ofertados sin importar el tamaño de la empresa que los ofrece. Se ha dinamizado la economía del país, ya que son muchos los negocios que se hacen a través de ellas.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema1/11.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema1/11.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 #[em Software] para optimizar
-              p.mb-4.mb-lg-0 El #[em software] en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El #[em software] especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes etc. Cada vez más son indispensables para la gerencia de las empresas.
+              p.mb-4.mb-lg-0 El #[em software] en las empresas agrega valor, ya que ayuda a alcanzar los objetivos, reduce costos y aumenta las ventas. También es una ventaja que la información de la empresa se comparta de manera clara, sencilla y rápida. El software especializado es una herramienta muy útil a la hora de comprobar datos como estados de resultados, balances, bases de datos de clientes, etc. Cada vez más son indispensables para la gerencia de las empresas.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema1/12.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema1/12.png', alt='')
           .row.z-2.justify-content-center.align-items-center
             .col-lg-5
               h4.mb-4 Dar y conocer las oportunidades
-              p El acceso a la tecnología les permite a las empresas adaptarse al mercado actual, así como a subsistir en un mercado cada vez más competitivo. Estos son  algunos beneficios que las empresas obtienen de la tecnología:
+              p El acceso a la tecnología les permite a las empresas adaptarse al mercado actual, así como a subsistir en un mercado cada vez más competitivo. Estos son algunos beneficios que las empresas obtienen de la tecnología:
               ul.lista-ul
                 li.d-flex
                   i.fas.fa-check-circle.text-primario
-                  | Optimización de procesos.
+                  | Optimización de procesos.
                 li.d-flex
                   i.fas.fa-check-circle.text-primario
                   | Resultados tangibles.
@@ -145,10 +145,10 @@
                   | Valor agregado.
                 li.d-flex
                   i.fas.fa-check-circle.text-primario
-                  | Información integrada.
+                  | Información integrada.
             .col-lg-6
               figure
-                img(src='@/assets/curso/tema1/13.png', alt='Imagen de acompañamiento')
+                img(src='@/assets/curso/tema1/13.png', alt='')
 
     .row.justify-content-center
       .col-lg-8.col-xl-6
@@ -173,21 +173,21 @@
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-140(src='@/assets/curso/tema1/14.svg', alt='Texto que describa la imagen')
+                  img.img-140(src='@/assets/curso/tema1/14.svg', alt='')
               .col-12.col-lg-9
                 p.mb-0 Cada cliente es único. Debe atenderlos de forma personalizada. Es importante conocer su perfil. Percibir muy bien lo que su cliente busca para que le ofrezca productos y servicios con excelente atención. Mantener actualizados sus datos, esto ayudará a entender las necesidades de los clientes.
           .tarjeta.bg-primario-claro.p-4(titulo="Establecer lazos con el cliente")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-140(src='@/assets/curso/tema1/15.svg', alt='Texto que describa la imagen')
+                  img.img-140(src='@/assets/curso/tema1/15.svg', alt='')
               .col-12.col-lg-9    
-                p.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el #[em marketing] relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes.
+                p.mb-0 Una de las estrategias que ayuda a crear empatía con el cliente es el marketing relacional. Las empresas deben crear maneras para establecer lazos fuertes y asertivos con los clientes.
           .tarjeta.bg-primario-claro.p-4(titulo="Utilizar la tecnología a su favor")
             .row.align-items-center.p-4
               .col-12.col-lg-3.align-items-center.mb-3.mb-lg-0
                 figure.justify-center
-                  img.img-140(src='@/assets/curso/tema1/16.svg', alt='Texto que describa la imagen')
+                  img.img-140(src='@/assets/curso/tema1/16.svg', alt='')
               .col-12.col-lg-9    
                 p.mb-0 En la actualidad, las empresas deben llamar la atención del cliente, ya no es el cliente el que debe llamar la atención de la empresa. Los clientes usan la tecnología a través de los diferentes dispositivos que existen para conocer los productos y servicios que ofrece el mercado.
 
@@ -196,9 +196,7 @@
 <script>
 export default {
   name: 'Tema1',
-  data: () => ({
-    mostrarIndicadorTarjetaAudio: true,
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
