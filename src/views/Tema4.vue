@@ -443,7 +443,7 @@
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         p Se debe tener en cuenta que la comunicación es una habilidad muy importante para relacionarse con los demás, ella permite compartir sentimientos, emociones y pensamientos en los entornos familiar, laboral y social, como la comunicación se logra a través de trasmisión de mensajes verbales y no verbales, hay que tener en cuenta que a veces los mensajes pueden malinterpretarse entre las personas y esto sucede porque no se da una comunicación efectiva y no se tienen en cuenta las técnicas de comunicación.
-        p.mb-0 A continuación, se muestran las técnicas de comunicación con sus objetivos y estrategias:
+        p.mb-0 A continuación, se describen las técnicas de comunicación con sus objetivos y estrategias:
 
     .row.justify-content-center
       .col-12.col-lg-10
